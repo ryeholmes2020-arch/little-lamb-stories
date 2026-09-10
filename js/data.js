@@ -88,7 +88,32 @@ window.LLS = {
       question: "When have you tried something new even though you felt scared?"
     }
   ],
-  upcoming: []
+  upcoming: [
+    {
+      id: "meet-the-little-lamb-heroes-premiere",
+      title: "Meet the Little Lamb Heroes! Raya, Liam & Jayden",
+      youtubeId: "5CqQXuFnTeY",
+      premiereAt: "Sep 10, 2026 at 7:00 PM",
+      categories: ["superheroes", "family"],
+      values: ["Kindness", "Teamwork"]
+    },
+    {
+      id: "our-dog-knew-my-daughter-was-in-danger",
+      title: "Our Dog Knew My Daughter Was in Danger | Based on a True Story",
+      youtubeId: "h56ay_QrMJs",
+      premiereAt: "Sep 13, 2026 at 7:00 PM",
+      categories: ["family", "stories"],
+      values: ["Courage", "Family"]
+    },
+    {
+      id: "he-trained-a-cockroach-for-5-years",
+      title: "He Trained a Cockroach for 5 Years... Then This Happened",
+      youtubeId: "UBDzjXNlk1Y",
+      premiereAt: "Sep 17, 2026 at 7:00 PM",
+      categories: ["comedy", "stories"],
+      values: ["Patience", "Surprise"]
+    }
+  ]
 };
 
 LLS.thumb = function (id) {
