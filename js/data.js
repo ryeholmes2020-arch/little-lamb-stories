@@ -1,119 +1,186 @@
 window.LLS = {
-  channelUrl: "https://www.youtube.com/@littlelambstories2026",
-  subscribeUrl: "https://www.youtube.com/@littlelambstories2026?sub_confirmation=1",
-  categories: [
-    { id: "stories", name: "Little Lamb Stories", blurb: "Heartwarming films about kindness, good manners, and everyday family life." },
-    { id: "superheroes", name: "Little Lamb Superheroes", blurb: "A Filipino super family whose greatest power is taking care of each other." },
-    { id: "comedy", name: "Little Lamb Comedy", blurb: "Gentle laughs from home — messy moments, big feelings, and saying sorry." },
-    { id: "bedtime", name: "Bedtime Stories", blurb: "Short, calm stories for winding down together." },
-    { id: "family", name: "Family Stories", blurb: "Watch-together films about love at home, courage, and looking after one another." }
-  ],
-  episodes: [
+  "channelUrl": "https://www.youtube.com/@littlelambstories2026",
+  "subscribeUrl": "https://www.youtube.com/@littlelambstories2026?sub_confirmation=1",
+  "categories": [
     {
-      id: "how-the-little-lamb-heroes-began",
-      title: "How The Little Lamb Heroes Began",
-      youtubeId: "KxWIEQOSJjw",
-      duration: "1:10",
-      audience: "together",
-      categories: ["superheroes", "family", "stories"],
-      values: ["Courage", "Love", "Family"],
-      synopsis: "Dad saves Mom. They fall in love. Then their kids grow up with superpowers of their own. This is the origin of The Little Lamb Heroes — a Filipino super family whose greatest power is taking care of each other.",
-      question: "If someone in our family needed help, what would you do?",
-      featured: true
+      "id": "stories",
+      "name": "Little Lamb Stories",
+      "blurb": "Heartwarming films about kindness, good manners, and everyday family life."
     },
     {
-      id: "meet-the-little-lamb-heroes",
-      title: "Meet the Little Lamb Heroes! Raya, Liam & Jayden",
-      youtubeId: "5CqQXuFnTeY",
-      duration: "1:00",
-      audience: "together",
-      categories: ["superheroes", "family"],
-      values: ["Kindness", "Teamwork"],
-      synopsis: "Meet Raya, Liam, and Jayden — the Little Lamb Heroes. A Filipino super family who look after each other, and never give up on one another.",
-      question: "What makes someone a hero in our everyday lives?"
+      "id": "superheroes",
+      "name": "Little Lamb Superheroes",
+      "blurb": "A Filipino super family whose greatest power is taking care of each other."
     },
     {
-      id: "jaydens-morph-time",
-      title: "Jayden's Morph Time!",
-      youtubeId: "jTjP2MiicMQ",
-      duration: "1:21",
-      audience: "together",
-      categories: ["superheroes", "stories"],
-      values: ["Courage", "Patience"],
-      synopsis: "An alert comes in: people need help because of a flood. The family morphs into Little Lamb Superheroes — everyone except Jayden, at first. With Mommy and Daddy cheering him on, Jayden finds his bubble superpower.",
-      question: "When something feels hard, who helps you keep trying?"
+      "id": "comedy",
+      "name": "Little Lamb Comedy",
+      "blurb": "Gentle laughs from home — messy moments, big feelings, and saying sorry."
     },
     {
-      id: "oops-jayden-did-it-again",
-      title: "Oops, Jayden Did It Again!",
-      youtubeId: "XAhg3qmfXN4",
-      duration: "1:15",
-      audience: "together",
-      categories: ["comedy", "stories", "family"],
-      values: ["Honesty", "Bravery", "Saying sorry"],
-      synopsis: "Little Jayden took his big sister Raya's favorite squishy and accidentally broke it. At first he was scared and said he didn't do it. Then he found the courage to tell the truth and say I'm sorry.",
-      question: "Have you ever had to say sorry?"
+      "id": "bedtime",
+      "name": "Bedtime Stories",
+      "blurb": "Short, calm stories for winding down together."
     },
     {
-      id: "integrity",
-      title: "Integrity | Doing the Right Thing",
-      youtubeId: "WSuCwSn86l4",
-      duration: "2:00",
-      audience: "together",
-      categories: ["stories", "family", "bedtime"],
-      values: ["Integrity", "Honesty"],
-      synopsis: "A heartwarming story about doing the right thing, even when it is hard — made for little ones and for families to watch together.",
-      question: "How did the characters show honesty even when it was hard?"
-    },
-    {
-      id: "liams-own-way",
-      title: "Liam's Own Way",
-      youtubeId: "arU3IS8CWrM",
-      duration: "1:31",
-      audience: "kids",
-      categories: ["stories", "family"],
-      values: ["Patience", "Being yourself"],
-      synopsis: "Liam finds his own way — a gentle adventure about growing at your own pace, with family beside you.",
-      question: "What is one thing you like doing in your own way?"
-    },
-    {
-      id: "nabels-little-journey",
-      title: "Nabel's Little Journey",
-      youtubeId: "GDwgxDKUfOQ",
-      duration: "2:59",
-      audience: "together",
-      categories: ["family", "bedtime", "stories"],
-      values: ["Kindness", "Care", "Love"],
-      synopsis: "Seven days of love with a tiny sparrow — a true story about gentleness, looking after a small creature, and how care can fill a whole house.",
-      question: "When have you tried something new even though you felt scared?"
+      "id": "family",
+      "name": "Family Stories",
+      "blurb": "Watch-together films about love at home, courage, and looking after one another."
     }
   ],
-  upcoming: [
+  "episodes": [
     {
-      id: "meet-the-little-lamb-heroes-premiere",
-      title: "Meet the Little Lamb Heroes! Raya, Liam & Jayden",
-      youtubeId: "5CqQXuFnTeY",
-      premiereAt: "Sep 10, 2026 at 7:00 PM",
-      categories: ["superheroes", "family"],
-      values: ["Kindness", "Teamwork"]
+      "id": "how-the-little-lamb-heroes-began",
+      "title": "How The Little Lamb Heroes Began | A Super Family Origin Story | Little Lamb Stories",
+      "youtubeId": "KxWIEQOSJjw",
+      "duration": "1:10",
+      "audience": "together",
+      "categories": [
+        "stories",
+        "family"
+      ],
+      "values": [
+        "Courage",
+        "Love",
+        "Family"
+      ],
+      "synopsis": "Dad saves Mom. They fall in love. Then their kids grow up with superpowers of their own. This is the origin of The Little Lamb Heroes — a Filipino super family whose greatest power is taking care of each other.",
+      "question": "If someone in our family needed help, what would you do?",
+      "featured": true
     },
     {
-      id: "our-dog-knew-my-daughter-was-in-danger",
-      title: "Our Dog Knew My Daughter Was in Danger | Based on a True Story",
-      youtubeId: "h56ay_QrMJs",
-      premiereAt: "Sep 13, 2026 at 7:00 PM",
-      categories: ["family", "stories"],
-      values: ["Courage", "Family"]
+      "id": "meet-the-little-lamb-heroes",
+      "title": "Meet the Little Lamb Heroes! 🌟 | Raya, Liam & Jayden",
+      "youtubeId": "5CqQXuFnTeY",
+      "duration": "2:06",
+      "audience": "together",
+      "categories": [
+        "stories",
+        "family"
+      ],
+      "values": [
+        "Kindness",
+        "Teamwork"
+      ],
+      "synopsis": "Meet Raya, Liam, and Jayden — the Little Lamb Heroes. A Filipino super family who look after each other, and never give up on one another.",
+      "question": "What makes someone a hero in our everyday lives?"
     },
     {
-      id: "he-trained-a-cockroach-for-5-years",
-      title: "He Trained a Cockroach for 5 Years... Then This Happened",
-      youtubeId: "UBDzjXNlk1Y",
-      premiereAt: "Sep 17, 2026 at 7:00 PM",
-      categories: ["comedy", "stories"],
-      values: ["Patience", "Surprise"]
+      "id": "jaydens-morph-time",
+      "title": "Jayden's Morph Time! | Little Lamb Stories",
+      "youtubeId": "jTjP2MiicMQ",
+      "duration": "1:21",
+      "audience": "together",
+      "categories": [
+        "stories",
+        "family"
+      ],
+      "values": [
+        "Courage",
+        "Patience"
+      ],
+      "synopsis": "An alert comes in: people need help because of a flood. The family morphs into Little Lamb Superheroes — everyone except Jayden, at first. With Mommy and Daddy cheering him on, Jayden finds his bubble superpower.",
+      "question": "When something feels hard, who helps you keep trying?"
+    },
+    {
+      "id": "oops-jayden-did-it-again",
+      "title": "Oops, Jayden Did It Again! | Little Lamb Stories",
+      "youtubeId": "XAhg3qmfXN4",
+      "duration": "1:15",
+      "audience": "together",
+      "categories": [
+        "stories"
+      ],
+      "values": [
+        "Honesty",
+        "Bravery",
+        "Saying sorry"
+      ],
+      "synopsis": "Little Jayden took his big sister Raya's favorite squishy and accidentally broke it. At first he was scared and said he didn't do it. Then he found the courage to tell the truth and say I'm sorry.",
+      "question": "Have you ever had to say sorry?"
+    },
+    {
+      "id": "integrity",
+      "title": "INTEGRITY | A Heartwarming Story About Doing the Right Thing ❤️ | Little Lamb Stories",
+      "youtubeId": "WSuCwSn86l4",
+      "duration": "0:55",
+      "audience": "together",
+      "categories": [
+        "stories"
+      ],
+      "values": [
+        "Integrity",
+        "Honesty"
+      ],
+      "synopsis": "A heartwarming story about doing the right thing, even when it is hard — made for little ones and for families to watch together.",
+      "question": "How did the characters show honesty even when it was hard?"
+    },
+    {
+      "id": "liams-own-way",
+      "title": "Liam's Own Way | Little Lamb Stories",
+      "youtubeId": "arU3IS8CWrM",
+      "duration": "1:31",
+      "audience": "kids",
+      "categories": [
+        "stories"
+      ],
+      "values": [
+        "Patience",
+        "Being yourself"
+      ],
+      "synopsis": "Liam finds his own way — a gentle adventure about growing at your own pace, with family beside you.",
+      "question": "What is one thing you like doing in your own way?"
+    },
+    {
+      "id": "nabels-little-journey",
+      "title": "Nabel’s Little Journey 💗 7 Days of Love with a Tiny Sparrow (True Story) | Little Lamb Stories",
+      "youtubeId": "GDwgxDKUfOQ",
+      "duration": "2:59",
+      "audience": "together",
+      "categories": [
+        "stories"
+      ],
+      "values": [
+        "Kindness",
+        "Care",
+        "Love"
+      ],
+      "synopsis": "Seven days of love with a tiny sparrow — a true story about gentleness, looking after a small creature, and how care can fill a whole house.",
+      "question": "When have you tried something new even though you felt scared?"
+    },
+    {
+      "id": "he-trained-a-cockroach-for-5-years-then-this-happened",
+      "title": "He Trained a Cockroach for 5 Years… Then This Happened",
+      "youtubeId": "UBDzjXNlk1Y",
+      "duration": "0:00",
+      "audience": "together",
+      "categories": [
+        "stories",
+        "comedy"
+      ],
+      "values": [
+        "Family"
+      ],
+      "synopsis": "He spent five years training a cockroach. Every day. Every trick. Every mistake. Five years of dedication… all leading to one unforgettable performance. Finally, he decides it's time to show the world what his little student can do. But he may have chosen the worst possible place",
+      "question": "What did this story make you think about?"
+    },
+    {
+      "id": "our-dog-knew-my-daughter-was-in-danger-based-on-a-true-story",
+      "title": "Our Dog Knew My Daughter Was in Danger | Based on a True Story",
+      "youtubeId": "h56ay_QrMJs",
+      "duration": "0:00",
+      "audience": "together",
+      "categories": [
+        "stories"
+      ],
+      "values": [
+        "Family"
+      ],
+      "synopsis": "This is a dramatized reenactment followed by the actual CCTV footage of a frightening incident involving my 5-year-old daughter, Raya, on August 19, 2023. Around 5:30 PM, an unfamiliar car stopped across our street. At first, it didn't seem unusual because we live along the main ",
+      "question": "What did this story make you think about?"
     }
-  ]
+  ],
+  "upcoming": []
 };
 
 LLS.thumb = function (id) {
