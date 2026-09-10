@@ -24,9 +24,10 @@ function parseJsonEnv(name, fallback) {
 }
 
 function loadData() {
-  const context = { window: {} };
+  const context = {};
+  context.window = context;
   vm.runInNewContext(fs.readFileSync(dataPath, "utf8"), context, { filename: dataPath });
-  return context.window.LLS;
+  return context.LLS;
 }
 
 async function youtube(resource, params) {
