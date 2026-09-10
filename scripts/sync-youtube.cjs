@@ -113,13 +113,14 @@ function descriptionFor(video) {
 
 function toEpisode(video, categories, existing) {
   const old = existing.find((item) => item.youtubeId === video.id);
+  const mergedCategories = [...new Set([...(old ? old.categories : []), ...categories])];
   return {
     id: old ? old.id : slugify(video.snippet.title, video.id),
     title: video.snippet.title,
     youtubeId: video.id,
     duration: duration(video.contentDetails.duration),
     audience: old ? old.audience : "together",
-    categories,
+    categories: mergedCategories,
     values: old ? old.values : ["Family"],
     synopsis: old ? old.synopsis : descriptionFor(video),
     question: old ? old.question : "What did this story make you think about?",
@@ -181,19 +182,23 @@ async function main() {
   const videos = await videosById(ids);
   const upcomingIds = new Set(upcomingSearch.map((item) => item.id.videoId));
   const existingEpisodes = data.episodes || [];
+  const existingUpcoming = data.upcoming || [];
   const published = videos.filter((video) => !upcomingIds.has(video.id));
   const syncedEpisodes = published.map((video) => toEpisode(video, categoriesFor(video.id, playlistItems, playlistNames), existingEpisodes));
   const episodeById = new Map(existingEpisodes.map((item) => [item.youtubeId, item]));
   for (const episode of syncedEpisodes) episodeById.set(episode.youtubeId, episode);
   data.episodes = [...episodeById.values()];
-  data.upcoming = videos.filter((video) => upcomingIds.has(video.id)).map((video) => ({
+  data.upcoming = videos.filter((video) => upcomingIds.has(video.id)).map((video) => {
+    const old = existingUpcoming.find((item) => item.youtubeId === video.id);
+    return {
     id: slugify(video.snippet.title, video.id),
     title: video.snippet.title,
     youtubeId: video.id,
     premiereAt: premiereAt(video.liveStreamingDetails && video.liveStreamingDetails.scheduledStartTime),
-    categories: categoriesFor(video.id, playlistItems, playlistNames),
-    values: ["Family"]
-  }));
+    categories: [...new Set([...(old ? old.categories : []), ...categoriesFor(video.id, playlistItems, playlistNames)])],
+    values: old ? old.values : ["Family"]
+    };
+  });
   createStoryPages(data.episodes);
   writeData(data);
   console.log("Synced " + data.upcoming.length + " upcoming and " + data.episodes.length + " published episodes.");

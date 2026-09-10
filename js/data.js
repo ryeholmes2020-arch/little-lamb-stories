@@ -129,8 +129,8 @@ LLS.byId = function (id) {
   return LLS.episodes.find(function (ep) { return ep.id === id; });
 };
 LLS.byCategory = function (cat) {
-  return LLS.episodes.filter(function (ep) { return ep.categories.indexOf(cat) !== -1; });
+  return LLS.episodes.filter(function (ep) { return ep.categories.some(function (value) { return value.toLowerCase().replace(/[^a-z]/g, "") === cat.toLowerCase().replace(/[^a-z]/g, ""); }); });
 };
 LLS.upcomingByCategory = function (cat) {
-  return LLS.upcoming.filter(function (ep) { return ep.categories.indexOf(cat) !== -1; });
+  return LLS.upcoming.filter(function (ep) { return ep.categories.some(function (value) { return value.toLowerCase().replace(/[^a-z]/g, "") === cat.toLowerCase().replace(/[^a-z]/g, ""); }); });
 };

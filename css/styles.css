@@ -119,6 +119,8 @@ button, .btn { font-family: inherit; cursor: pointer; }
 .hero-inner {
   padding: clamp(48px, 6vw, 80px) 0;
   max-width: 520px;
+  margin-left: 0;
+  margin-right: auto;
 }
 .hero h1 {
   font-family: "Fraunces", serif;
@@ -298,7 +300,15 @@ button, .btn { font-family: inherit; cursor: pointer; }
     min-height: 0;
     object-position: 82% 42%;
   }
-  .hero-shade { display: none; }
+  .hero-shade {
+    display: block;
+    background: linear-gradient(
+      90deg,
+      rgba(248,243,234,0.7) 0%,
+      rgba(248,243,234,0.08) 68%,
+      rgba(248,243,234,0) 100%
+    );
+  }
   .hero-copy { background: var(--cream); }
   .hero-inner { padding: 32px 0 40px; max-width: none; }
 }
