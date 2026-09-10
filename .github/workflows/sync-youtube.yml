@@ -25,8 +25,8 @@ jobs:
       - name: Sync YouTube content
         env:
           YOUTUBE_API_KEY: ${{ secrets.YOUTUBE_API_KEY }}
-          YOUTUBE_CHANNEL_ID: ${{ vars.YOUTUBE_CHANNEL_ID }}
-          YOUTUBE_TIME_ZONE: ${{ vars.YOUTUBE_TIME_ZONE }}
+          YOUTUBE_CHANNEL_ID: ${{ vars.YOUTUBE_CHANNEL_ID || secrets.YOUTUBE_CHANNEL_ID }}
+          YOUTUBE_TIME_ZONE: ${{ vars.YOUTUBE_TIME_ZONE || secrets.YOUTUBE_TIME_ZONE }}
           YOUTUBE_CATEGORY_PLAYLISTS: ${{ vars.YOUTUBE_CATEGORY_PLAYLISTS }}
         run: node scripts/sync-youtube.cjs
       - name: Commit generated content
