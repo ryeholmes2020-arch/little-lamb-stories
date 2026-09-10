@@ -81,22 +81,44 @@ button, .btn { font-family: inherit; cursor: pointer; }
 .btn-outline:hover { background: #e8f0e6; }
 .btn-lg { padding: 14px 24px; font-size: 1.05rem; }
 .hero {
-  position: relative; overflow: hidden;
-  min-height: 580px;
-  display: grid;
-  grid-template-columns: minmax(280px, 1.05fr) minmax(280px, 0.95fr);
-  background: linear-gradient(180deg, #f8f3ea 0%, #efe6d6 100%);
+  position: relative;
+  overflow: hidden;
+  min-height: 640px;
+  display: flex;
+  align-items: center;
+  background: var(--cream);
 }
-.hero-copy {
-  display: flex; align-items: center;
-}
-.hero-inner { padding: 64px 0 72px; max-width: 620px; }
 .hero-photo {
+  position: absolute;
+  inset: 0;
   width: 100%;
   height: 100%;
-  min-height: 580px;
   object-fit: cover;
-  object-position: center 18%;
+  object-position: right center;
+  z-index: 0;
+}
+.hero-shade {
+  position: absolute;
+  inset: 0;
+  z-index: 1;
+  pointer-events: none;
+  background: linear-gradient(
+    90deg,
+    rgba(248,243,234,0.97) 0%,
+    rgba(248,243,234,0.9) 26%,
+    rgba(248,243,234,0.42) 46%,
+    rgba(248,243,234,0.08) 62%,
+    rgba(248,243,234,0) 74%
+  );
+}
+.hero-copy {
+  position: relative;
+  z-index: 2;
+  width: 100%;
+}
+.hero-inner {
+  padding: 80px 0;
+  max-width: 520px;
 }
 .hero h1 {
   font-family: "Fraunces", serif;
@@ -112,7 +134,7 @@ button, .btn { font-family: inherit; cursor: pointer; }
 .chip {
   display: inline-flex; align-items: center; gap: 6px;
   border: 1px solid var(--taupe);
-  background: rgba(255,253,248,0.85);
+  background: rgba(255,253,248,0.88);
   border-radius: 999px;
   padding: 6px 12px;
   font-size: 0.88rem;
@@ -152,7 +174,7 @@ button, .btn { font-family: inherit; cursor: pointer; }
   aspect-ratio: 16/9;
   background: var(--cream-deep);
 }
-.featured-thumb img { width: 100%; height: 100%; object-fit: cover; }
+.featured-thumb img { width: 100%; height: 100%; object-fit: cover; object-position: right center; }
 .play-badge { position: absolute; inset: 0; display: grid; place-items: center; }
 .play-badge span {
   min-width: 64px; height: 64px; padding: 0 16px; border-radius: 999px;
@@ -260,8 +282,21 @@ button, .btn { font-family: inherit; cursor: pointer; }
 @media (max-width: 960px) {
   .featured, .episode-layout, .parents-grid { grid-template-columns: 1fr; }
   .grid-cards { grid-template-columns: repeat(2, 1fr); }
-  .hero { grid-template-columns: 1fr; min-height: 0; }
-  .hero-photo { min-height: 360px; order: -1; }
+  .hero {
+    display: flex;
+    flex-direction: column;
+    min-height: 0;
+    align-items: stretch;
+  }
+  .hero-photo {
+    position: relative;
+    height: 340px;
+    min-height: 340px;
+    object-position: 82% 42%;
+  }
+  .hero-shade { display: none; }
+  .hero-copy { background: var(--cream); }
+  .hero-inner { padding: 32px 0 40px; max-width: none; }
 }
 @media (max-width: 760px) {
   .nav-main, .header-actions .btn { display: none; }
@@ -274,7 +309,7 @@ button, .btn { font-family: inherit; cursor: pointer; }
   .menu-toggle { display: inline-flex; align-items: center; justify-content: center; }
   .header-inner { justify-content: space-between; }
   .grid-cards { grid-template-columns: 1fr; }
-  .hero-inner { padding: 32px 0 48px; }
+  .hero-photo { height: 280px; min-height: 280px; object-position: 84% 40%; }
   .mobile-sub { display: block; }
   .guide-table { display: block; overflow-x: auto; }
 }
