@@ -328,6 +328,7 @@ button, .btn { font-family: inherit; cursor: pointer; }
   }
   .menu-toggle { display: inline-flex; align-items: center; justify-content: center; }
   .header-inner { justify-content: space-between; }
+  .parents-grid { grid-template-columns: 1fr !important; }
   .grid-cards { grid-template-columns: 1fr; }
   .hero-photo { height: clamp(220px, 72vw, 300px); min-height: 0; object-position: 84% 40%; }
   .mobile-sub { display: block; }
