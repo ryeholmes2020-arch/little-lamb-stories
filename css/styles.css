@@ -83,7 +83,7 @@ button, .btn { font-family: inherit; cursor: pointer; }
 .hero {
   position: relative;
   overflow: hidden;
-  min-height: 640px;
+  min-height: clamp(480px, 44vw, 620px);
   display: flex;
   align-items: center;
   background: var(--cream);
@@ -117,7 +117,7 @@ button, .btn { font-family: inherit; cursor: pointer; }
   width: 100%;
 }
 .hero-inner {
-  padding: 80px 0;
+  padding: clamp(48px, 6vw, 80px) 0;
   max-width: 520px;
 }
 .hero h1 {
@@ -224,6 +224,10 @@ button, .btn { font-family: inherit; cursor: pointer; }
 }
 .tag.together { background: var(--sky-soft); }
 .tag.kids { background: #efe4c8; }
+.tag.premiere { background: #f7d8c9; color: var(--coral-dark); }
+.upcoming-section { margin-top: 52px; }
+.upcoming-section[hidden] { display: none; }
+.category-upcoming { margin-top: 36px; }
 .parents-strip {
   background: linear-gradient(180deg, #f3eadc, #efe6d6);
   border-top: 1px solid var(--taupe);
@@ -290,8 +294,8 @@ button, .btn { font-family: inherit; cursor: pointer; }
   }
   .hero-photo {
     position: relative;
-    height: 340px;
-    min-height: 340px;
+    height: clamp(240px, 58vw, 340px);
+    min-height: 0;
     object-position: 82% 42%;
   }
   .hero-shade { display: none; }
@@ -309,7 +313,7 @@ button, .btn { font-family: inherit; cursor: pointer; }
   .menu-toggle { display: inline-flex; align-items: center; justify-content: center; }
   .header-inner { justify-content: space-between; }
   .grid-cards { grid-template-columns: 1fr; }
-  .hero-photo { height: 280px; min-height: 280px; object-position: 84% 40%; }
+  .hero-photo { height: clamp(220px, 72vw, 300px); min-height: 0; object-position: 84% 40%; }
   .mobile-sub { display: block; }
   .guide-table { display: block; overflow-x: auto; }
 }

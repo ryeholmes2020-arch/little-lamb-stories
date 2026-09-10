@@ -70,20 +70,20 @@
     sub.innerHTML = '<div class="wrap"><a class="btn btn-coral" style="width:100%" href="' + LLS.subscribeUrl + '" target="_blank" rel="noopener">Subscribe on YouTube</a></div>';
   }
 
-  function cardHTML(ep) {
+  function cardHTML(ep, upcoming) {
+    var destination = upcoming ? LLS.watch(ep.youtubeId) : prefix + "stories/" + ep.id + ".html";
+    var label = upcoming ? "Premieres " + ep.premiereAt : (ep.audience === "together" ? "Watch together" : "For little ones");
     return (
       '<article class="card">' +
-        '<a href="' + prefix + 'stories/' + ep.id + '.html">' +
+        '<a href="' + destination + '"' + (upcoming ? ' target="_blank" rel="noopener"' : '') + '>' +
           '<div class="thumb">' +
             '<img src="' + LLS.thumb(ep.youtubeId) + '" alt="">' +
-            '<span class="duration">' + ep.duration + '</span>' +
+            '<span class="duration">' + (upcoming ? "Premiere" : ep.duration) + '</span>' +
           '</div>' +
           '<div class="card-body">' +
             '<h3>' + ep.title + '</h3>' +
             '<div class="card-tags">' +
-              '<span class="tag ' + (ep.audience === "together" ? "together" : "kids") + '">' +
-                (ep.audience === "together" ? "Watch together" : "For little ones") +
-              '</span>' +
+              '<span class="tag ' + (upcoming ? "premiere" : (ep.audience === "together" ? "together" : "kids")) + '">' + label + '</span>' +
               (ep.values[0] ? '<span class="tag">' + ep.values[0] + '</span>' : '') +
             '</div>' +
           '</div>' +
@@ -95,7 +95,15 @@
   document.querySelectorAll("[data-shelf]").forEach(function (el) {
     const cat = el.getAttribute("data-shelf");
     const list = cat === "all" ? LLS.episodes : LLS.byCategory(cat);
-    el.innerHTML = list.map(cardHTML).join("");
+    el.innerHTML = list.map(function (ep) { return cardHTML(ep, false); }).join("");
+  });
+
+  document.querySelectorAll("[data-upcoming-shelf]").forEach(function (el) {
+    var cat = el.getAttribute("data-upcoming-shelf");
+    var list = cat === "all" ? LLS.upcoming : LLS.upcomingByCategory(cat);
+    el.innerHTML = list.map(function (ep) { return cardHTML(ep, true); }).join("");
+    var section = el.closest(".upcoming-section");
+    if (section) section.hidden = list.length === 0;
   });
 
   const featured = document.getElementById("featured-story");
@@ -130,9 +138,17 @@
         var parts = e.duration.split(":");
         return Number(parts[0]) * 60 + Number(parts[1]) <= 180;
       });
-      grid.innerHTML = items.map(cardHTML).join("") || "<p>No stories in this view yet.</p>";
+      grid.innerHTML = items.map(function (ep) { return cardHTML(ep, false); }).join("") || "<p>No stories in this view yet.</p>";
     }
     render("all");
+    var categoryUpcoming = LLS.upcomingByCategory(grid.getAttribute("data-category"));
+    if (categoryUpcoming.length) {
+      var upcomingSection = document.createElement("section");
+      upcomingSection.className = "upcoming-section category-upcoming";
+      upcomingSection.innerHTML = '<div class="shelf-head"><div><p class="kicker">Coming soon</p><h2>Premieres on YouTube</h2></div></div><div class="rail" data-upcoming-shelf="category"></div>';
+      grid.parentNode.appendChild(upcomingSection);
+      upcomingSection.querySelector("[data-upcoming-shelf]").innerHTML = categoryUpcoming.map(function (ep) { return cardHTML(ep, true); }).join("");
+    }
     document.querySelectorAll(".filter-btn").forEach(function (btn) {
       btn.addEventListener("click", function () {
         document.querySelectorAll(".filter-btn").forEach(function (b) { b.classList.remove("active"); });
@@ -159,7 +175,7 @@
       episodeRoot.querySelector("[data-embed]").src = LLS.embed(ep.youtubeId);
       var next = episodeRoot.querySelector("[data-next]");
       var others = LLS.episodes.filter(function (e) { return e.id !== ep.id; }).slice(0, 4);
-      next.innerHTML = others.map(cardHTML).join("");
+      next.innerHTML = others.map(function (item) { return cardHTML(item, false); }).join("");
     }
   }
 

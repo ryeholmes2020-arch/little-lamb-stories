@@ -87,7 +87,8 @@ window.LLS = {
       synopsis: "Seven days of love with a tiny sparrow — a true story about gentleness, looking after a small creature, and how care can fill a whole house.",
       question: "When have you tried something new even though you felt scared?"
     }
-  ]
+  ],
+  upcoming: []
 };
 
 LLS.thumb = function (id) {
@@ -104,4 +105,7 @@ LLS.byId = function (id) {
 };
 LLS.byCategory = function (cat) {
   return LLS.episodes.filter(function (ep) { return ep.categories.indexOf(cat) !== -1; });
+};
+LLS.upcomingByCategory = function (cat) {
+  return LLS.upcoming.filter(function (ep) { return ep.categories.indexOf(cat) !== -1; });
 };
