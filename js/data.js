@@ -47,6 +47,7 @@ window.LLS = {
       ],
       "synopsis": "Dad saves Mom. They fall in love. Then their kids grow up with superpowers of their own. This is the origin of The Little Lamb Heroes — a Filipino super family whose greatest power is taking care of each other.",
       "question": "If someone in our family needed help, what would you do?",
+      "uploadDate": "2026-08-28T11:22:49Z",
       "featured": true
     },
     {
@@ -65,7 +66,8 @@ window.LLS = {
         "Teamwork"
       ],
       "synopsis": "Meet Raya, Liam, and Jayden — the Little Lamb Heroes. A Filipino super family who look after each other, and never give up on one another.",
-      "question": "What makes someone a hero in our everyday lives?"
+      "question": "What makes someone a hero in our everyday lives?",
+      "uploadDate": "2026-09-10T11:00:06Z"
     },
     {
       "id": "jaydens-morph-time",
@@ -83,7 +85,8 @@ window.LLS = {
         "Patience"
       ],
       "synopsis": "An alert comes in: people need help because of a flood. The family morphs into Little Lamb Superheroes — everyone except Jayden, at first. With Mommy and Daddy cheering him on, Jayden finds his bubble superpower.",
-      "question": "When something feels hard, who helps you keep trying?"
+      "question": "When something feels hard, who helps you keep trying?",
+      "uploadDate": "2026-09-06T11:00:06Z"
     },
     {
       "id": "oops-jayden-did-it-again",
@@ -102,7 +105,8 @@ window.LLS = {
         "Saying sorry"
       ],
       "synopsis": "Little Jayden took his big sister Raya's favorite squishy and accidentally broke it. At first he was scared and said he didn't do it. Then he found the courage to tell the truth and say I'm sorry.",
-      "question": "Have you ever had to say sorry?"
+      "question": "Have you ever had to say sorry?",
+      "uploadDate": "2026-09-04T11:00:06Z"
     },
     {
       "id": "integrity",
@@ -120,7 +124,8 @@ window.LLS = {
         "Honesty"
       ],
       "synopsis": "A heartwarming story about doing the right thing, even when it is hard — made for little ones and for families to watch together.",
-      "question": "How did the characters show honesty even when it was hard?"
+      "question": "How did the characters show honesty even when it was hard?",
+      "uploadDate": "2026-09-08T11:00:06Z"
     },
     {
       "id": "liams-own-way",
@@ -137,7 +142,8 @@ window.LLS = {
         "Being yourself"
       ],
       "synopsis": "Liam finds his own way — a gentle adventure about growing at your own pace, with family beside you.",
-      "question": "What is one thing you like doing in your own way?"
+      "question": "What is one thing you like doing in your own way?",
+      "uploadDate": "2026-09-01T11:00:06Z"
     },
     {
       "id": "nabels-little-journey",
@@ -156,7 +162,8 @@ window.LLS = {
         "Love"
       ],
       "synopsis": "Seven days of love with a tiny sparrow — a true story about gentleness, looking after a small creature, and how care can fill a whole house.",
-      "question": "When have you tried something new even though you felt scared?"
+      "question": "When have you tried something new even though you felt scared?",
+      "uploadDate": "2026-08-30T11:00:06Z"
     }
   ],
   "upcoming": [
