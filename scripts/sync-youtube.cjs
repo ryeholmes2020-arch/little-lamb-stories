@@ -9,6 +9,15 @@ const apiKey = process.env.YOUTUBE_API_KEY;
 const channelId = process.env.YOUTUBE_CHANNEL_ID;
 const timeZone = process.env.YOUTUBE_TIME_ZONE || "Asia/Manila";
 const categoryPlaylistMap = parseJsonEnv("YOUTUBE_CATEGORY_PLAYLISTS", {});
+const categoryOverrides = {
+  KxWIEQOSJjw: ["superheroes", "family", "stories"],
+  "5CqQXuFnTeY": ["superheroes", "family"],
+  jTjP2MiicMQ: ["superheroes", "stories"],
+  XAhg3qmfXN4: ["comedy", "stories", "family"],
+  WSuCwSn86l4: ["stories", "family", "bedtime"],
+  arU3IS8CWrM: ["stories", "family"],
+  GDwgxDKUfOQ: ["family", "bedtime", "stories"]
+};
 
 if (!apiKey || !channelId) {
   throw new Error("YOUTUBE_API_KEY and YOUTUBE_CHANNEL_ID are required");
@@ -92,6 +101,7 @@ async function videosById(ids) {
 }
 
 function categoriesFor(videoId, playlistItems, playlistNames) {
+  if (categoryOverrides[videoId]) return categoryOverrides[videoId];
   const categories = [];
   for (const [category, playlistId] of Object.entries(categoryPlaylistMap)) {
     if (playlistItems[playlistId] && playlistItems[playlistId].has(videoId)) categories.push(category);

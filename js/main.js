@@ -13,6 +13,28 @@
 
   const nav = currentNav();
   const prefix = path.indexOf("/stories/") !== -1 || path.indexOf("/categories/") !== -1 ? "../" : "";
+  const categoryOverrides = {
+    KxWIEQOSJjw: ["superheroes", "family", "stories"],
+    "5CqQXuFnTeY": ["superheroes", "family"],
+    jTjP2MiicMQ: ["superheroes", "stories"],
+    XAhg3qmfXN4: ["comedy", "stories", "family"],
+    WSuCwSn86l4: ["stories", "family", "bedtime"],
+    arU3IS8CWrM: ["stories", "family"],
+    GDwgxDKUfOQ: ["family", "bedtime", "stories"]
+  };
+  function hasCategory(item, category) {
+    var categories = categoryOverrides[item.youtubeId] || item.categories || [];
+    var normalized = category.toLowerCase().replace(/[^a-z]/g, "");
+    return categories.some(function (value) {
+      return value.toLowerCase().replace(/[^a-z]/g, "") === normalized;
+    });
+  }
+  function episodesByCategory(category) {
+    return LLS.episodes.filter(function (item) { return hasCategory(item, category); });
+  }
+  function upcomingByCategory(category) {
+    return LLS.upcoming.filter(function (item) { return hasCategory(item, category); });
+  }
 
   const header = document.getElementById("site-header");
   if (header) {
@@ -94,13 +116,13 @@
 
   document.querySelectorAll("[data-shelf]").forEach(function (el) {
     const cat = el.getAttribute("data-shelf");
-    const list = cat === "all" ? LLS.episodes : LLS.byCategory(cat);
+    const list = cat === "all" ? LLS.episodes : episodesByCategory(cat);
     el.innerHTML = list.map(function (ep) { return cardHTML(ep, false); }).join("");
   });
 
   document.querySelectorAll("[data-upcoming-shelf]").forEach(function (el) {
     var cat = el.getAttribute("data-upcoming-shelf");
-    var list = cat === "all" ? LLS.upcoming : LLS.upcomingByCategory(cat);
+    var list = cat === "all" ? LLS.upcoming : upcomingByCategory(cat);
     el.innerHTML = list.map(function (ep) { return cardHTML(ep, true); }).join("");
     var section = el.closest(".upcoming-section");
     if (section) section.hidden = list.length === 0;
@@ -129,7 +151,7 @@
   const grid = document.getElementById("category-grid");
   if (grid) {
     const cat = grid.getAttribute("data-category");
-    var list = LLS.byCategory(cat);
+    var list = episodesByCategory(cat);
     function render(filter) {
       var items = list;
       if (filter === "together") items = list.filter(function (e) { return e.audience === "together"; });
@@ -141,7 +163,7 @@
       grid.innerHTML = items.map(function (ep) { return cardHTML(ep, false); }).join("") || "<p>No stories in this view yet.</p>";
     }
     render("all");
-    var categoryUpcoming = LLS.upcomingByCategory(grid.getAttribute("data-category"));
+    var categoryUpcoming = upcomingByCategory(grid.getAttribute("data-category"));
     if (categoryUpcoming.length) {
       var upcomingSection = document.createElement("section");
       upcomingSection.className = "upcoming-section category-upcoming";
