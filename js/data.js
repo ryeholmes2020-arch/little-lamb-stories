@@ -148,39 +148,25 @@ window.LLS = {
       "synopsis": "Seven days of love with a tiny sparrow — a true story about gentleness, looking after a small creature, and how care can fill a whole house.",
       "question": "When have you tried something new even though you felt scared?"
     },
-    {
-      "id": "he-trained-a-cockroach-for-5-years-then-this-happened",
-      "title": "He Trained a Cockroach for 5 Years… Then This Happened",
-      "youtubeId": "UBDzjXNlk1Y",
-      "duration": "0:00",
-      "audience": "together",
-      "categories": [
-        "stories",
-        "comedy"
-      ],
-      "values": [
-        "Family"
-      ],
-      "synopsis": "He spent five years training a cockroach. Every day. Every trick. Every mistake. Five years of dedication… all leading to one unforgettable performance. Finally, he decides it's time to show the world what his little student can do. But he may have chosen the worst possible place",
-      "question": "What did this story make you think about?"
-    },
+  ],
+  "upcoming": [
     {
       "id": "our-dog-knew-my-daughter-was-in-danger-based-on-a-true-story",
       "title": "Our Dog Knew My Daughter Was in Danger | Based on a True Story",
       "youtubeId": "h56ay_QrMJs",
-      "duration": "0:00",
-      "audience": "together",
-      "categories": [
-        "stories"
-      ],
-      "values": [
-        "Family"
-      ],
-      "synopsis": "This is a dramatized reenactment followed by the actual CCTV footage of a frightening incident involving my 5-year-old daughter, Raya, on August 19, 2023. Around 5:30 PM, an unfamiliar car stopped across our street. At first, it didn't seem unusual because we live along the main ",
-      "question": "What did this story make you think about?"
+      "premiereAt": "Sep 13, 2026 at 7:00 PM",
+      "categories": ["stories", "family"],
+      "values": ["Family", "Courage"]
+    },
+    {
+      "id": "he-trained-a-cockroach-for-5-years-then-this-happened",
+      "title": "He Trained a Cockroach for 5 Years... Then This Happened",
+      "youtubeId": "UBDzjXNlk1Y",
+      "premiereAt": "Sep 17, 2026 at 7:00 PM",
+      "categories": ["stories", "comedy"],
+      "values": ["Family", "Patience"]
     }
-  ],
-  "upcoming": []
+  ]
 };
 
 LLS.thumb = function (id) {

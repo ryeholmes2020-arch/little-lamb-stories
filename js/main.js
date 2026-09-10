@@ -63,7 +63,7 @@
         '</nav>' +
         '<div class="header-actions">' +
           '<a class="btn btn-coral" href="' + LLS.subscribeUrl + '" target="_blank" rel="noopener">Subscribe</a>' +
-          '<button class="menu-toggle" type="button" aria-expanded="false" aria-controls="nav-main">Menu</button>' +
+          '<button class="menu-toggle" type="button" aria-expanded="false" aria-controls="nav-main"><span class="menu-icon" aria-hidden="true"><span></span><span></span><span></span></span><span class="menu-label">Menu</span></button>' +
         '</div>' +
       '</div>';
     const toggle = header.querySelector(".menu-toggle");
@@ -208,7 +208,7 @@
         "<td><a href=\"stories/" + ep.id + ".html\"><strong>" + ep.title + "</strong></a><br>" + ep.duration + "</td>" +
         "<td>" + ep.values.join(", ") + "</td>" +
         "<td>" + ep.question + "</td>" +
-        "<td><a class=\"btn btn-outline\" href=\"stories/" + ep.id + ".html\">Open guide</a></td>" +
+        "<td class=\"guide-action\"><a class=\"btn btn-outline\" href=\"stories/" + ep.id + ".html\">Open guide</a></td>" +
       "</tr>";
     }).join("");
   }

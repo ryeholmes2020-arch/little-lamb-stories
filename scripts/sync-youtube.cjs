@@ -190,7 +190,12 @@ async function main() {
   const recentUploads = await listAll("playlistItems", { part: "snippet,contentDetails", playlistId: uploadPlaylist, maxResults: "50" });
   const ids = [...new Set([...upcomingSearch.map((item) => item.id.videoId), ...recentUploads.map((item) => item.contentDetails.videoId)])];
   const videos = await videosById(ids);
+  const now = Date.now();
   const upcomingIds = new Set(upcomingSearch.map((item) => item.id.videoId));
+  for (const video of videos) {
+    const scheduledStart = video.liveStreamingDetails && video.liveStreamingDetails.scheduledStartTime;
+    if (scheduledStart && new Date(scheduledStart).getTime() > now) upcomingIds.add(video.id);
+  }
   const existingEpisodes = data.episodes || [];
   const existingUpcoming = data.upcoming || [];
   const published = videos.filter((video) => !upcomingIds.has(video.id));
