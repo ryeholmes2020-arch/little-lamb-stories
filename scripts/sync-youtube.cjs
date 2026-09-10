@@ -134,6 +134,7 @@ function toEpisode(video, categories, existing) {
     values: old ? old.values : ["Family"],
     synopsis: old ? old.synopsis : descriptionFor(video),
     question: old ? old.question : "What did this story make you think about?",
+    uploadDate: old && old.uploadDate ? old.uploadDate : video.snippet.publishedAt,
     ...(old && old.featured ? { featured: true } : {})
   };
 }
