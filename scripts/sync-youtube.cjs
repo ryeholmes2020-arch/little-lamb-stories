@@ -61,6 +61,7 @@ function slugify(title, id) {
 }
 
 function duration(value) {
+  if (!value) return "0:00";
   const match = value.match(/PT(?:(\d+)H)?(?:(\d+)M)?(?:(\d+)S)?/);
   if (!match) return "";
   const seconds = Number(match[1] || 0) * 3600 + Number(match[2] || 0) * 60 + Number(match[3] || 0);
