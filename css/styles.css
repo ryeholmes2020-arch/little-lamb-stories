@@ -82,16 +82,25 @@ button, .btn { font-family: inherit; cursor: pointer; }
 .btn-lg { padding: 14px 24px; font-size: 1.05rem; }
 .hero {
   position: relative; overflow: hidden;
-  background:
-    linear-gradient(90deg, rgba(248,243,234,0.96) 0%, rgba(248,243,234,0.82) 38%, rgba(248,243,234,0.18) 62%),
-    url("https://images.unsplash.com/photo-1500595046743-cd271d694d30?auto=format&fit=crop&w=1800&q=80") center/cover no-repeat;
-  min-height: 560px;
+  min-height: 580px;
+  display: grid;
+  grid-template-columns: minmax(280px, 1.05fr) minmax(280px, 0.95fr);
+  background: linear-gradient(180deg, #f8f3ea 0%, #efe6d6 100%);
+}
+.hero-copy {
   display: flex; align-items: center;
 }
-.hero-inner { padding: 72px 0 88px; max-width: 620px; }
+.hero-inner { padding: 64px 0 72px; max-width: 620px; }
+.hero-photo {
+  width: 100%;
+  height: 100%;
+  min-height: 580px;
+  object-fit: cover;
+  object-position: center 18%;
+}
 .hero h1 {
   font-family: "Fraunces", serif;
-  font-size: clamp(2.2rem, 5vw, 4rem);
+  font-size: clamp(2.2rem, 5vw, 3.8rem);
   line-height: 1.08;
   color: var(--forest);
   letter-spacing: -0.03em;
@@ -218,9 +227,7 @@ button, .btn { font-family: inherit; cursor: pointer; }
   margin: 12px 0 28px;
   border-radius: 28px;
   min-height: 200px;
-  background:
-    linear-gradient(90deg, rgba(248,243,234,.92), rgba(248,243,234,.35)),
-    url("https://images.unsplash.com/photo-1469474968028-56623f02e42e?auto=format&fit=crop&w=1600&q=80") center/cover;
+  background: linear-gradient(90deg, rgba(248,243,234,.96), rgba(239,230,214,.7));
   border: 1px solid var(--taupe);
   padding: 36px;
 }
@@ -253,7 +260,8 @@ button, .btn { font-family: inherit; cursor: pointer; }
 @media (max-width: 960px) {
   .featured, .episode-layout, .parents-grid { grid-template-columns: 1fr; }
   .grid-cards { grid-template-columns: repeat(2, 1fr); }
-  .hero { min-height: 480px; background-position: 70% center; }
+  .hero { grid-template-columns: 1fr; min-height: 0; }
+  .hero-photo { min-height: 360px; order: -1; }
 }
 @media (max-width: 760px) {
   .nav-main, .header-actions .btn { display: none; }
@@ -266,7 +274,7 @@ button, .btn { font-family: inherit; cursor: pointer; }
   .menu-toggle { display: inline-flex; align-items: center; justify-content: center; }
   .header-inner { justify-content: space-between; }
   .grid-cards { grid-template-columns: 1fr; }
-  .hero-inner { padding: 40px 0 56px; }
+  .hero-inner { padding: 32px 0 48px; }
   .mobile-sub { display: block; }
   .guide-table { display: block; overflow-x: auto; }
 }
