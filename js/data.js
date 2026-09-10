@@ -37,7 +37,8 @@ window.LLS = {
       "audience": "together",
       "categories": [
         "stories",
-        "family"
+        "family",
+        "superheroes"
       ],
       "values": [
         "Courage",
@@ -56,7 +57,8 @@ window.LLS = {
       "audience": "together",
       "categories": [
         "stories",
-        "family"
+        "family",
+        "superheroes"
       ],
       "values": [
         "Kindness",
@@ -73,7 +75,8 @@ window.LLS = {
       "audience": "together",
       "categories": [
         "stories",
-        "family"
+        "family",
+        "superheroes"
       ],
       "values": [
         "Courage",
@@ -89,7 +92,9 @@ window.LLS = {
       "duration": "1:15",
       "audience": "together",
       "categories": [
-        "stories"
+        "stories",
+        "comedy",
+        "family"
       ],
       "values": [
         "Honesty",
@@ -106,7 +111,9 @@ window.LLS = {
       "duration": "0:55",
       "audience": "together",
       "categories": [
-        "stories"
+        "stories",
+        "family",
+        "bedtime"
       ],
       "values": [
         "Integrity",
@@ -122,7 +129,8 @@ window.LLS = {
       "duration": "1:31",
       "audience": "kids",
       "categories": [
-        "stories"
+        "stories",
+        "family"
       ],
       "values": [
         "Patience",
@@ -138,7 +146,9 @@ window.LLS = {
       "duration": "2:59",
       "audience": "together",
       "categories": [
-        "stories"
+        "stories",
+        "family",
+        "bedtime"
       ],
       "values": [
         "Kindness",
@@ -147,24 +157,36 @@ window.LLS = {
       ],
       "synopsis": "Seven days of love with a tiny sparrow — a true story about gentleness, looking after a small creature, and how care can fill a whole house.",
       "question": "When have you tried something new even though you felt scared?"
-    },
+    }
   ],
   "upcoming": [
+    {
+      "id": "he-trained-a-cockroach-for-5-years-then-this-happened",
+      "title": "He Trained a Cockroach for 5 Years… Then This Happened",
+      "youtubeId": "UBDzjXNlk1Y",
+      "premiereAt": "Sep 17, 2026, 7:00 PM GMT+8",
+      "categories": [
+        "stories",
+        "comedy"
+      ],
+      "values": [
+        "Family",
+        "Patience"
+      ]
+    },
     {
       "id": "our-dog-knew-my-daughter-was-in-danger-based-on-a-true-story",
       "title": "Our Dog Knew My Daughter Was in Danger | Based on a True Story",
       "youtubeId": "h56ay_QrMJs",
-      "premiereAt": "Sep 13, 2026 at 7:00 PM",
-      "categories": ["stories", "family"],
-      "values": ["Family", "Courage"]
-    },
-    {
-      "id": "he-trained-a-cockroach-for-5-years-then-this-happened",
-      "title": "He Trained a Cockroach for 5 Years... Then This Happened",
-      "youtubeId": "UBDzjXNlk1Y",
-      "premiereAt": "Sep 17, 2026 at 7:00 PM",
-      "categories": ["stories", "comedy"],
-      "values": ["Family", "Patience"]
+      "premiereAt": "Sep 13, 2026, 7:00 PM GMT+8",
+      "categories": [
+        "stories",
+        "family"
+      ],
+      "values": [
+        "Family",
+        "Courage"
+      ]
     }
   ]
 };
@@ -182,8 +204,8 @@ LLS.byId = function (id) {
   return LLS.episodes.find(function (ep) { return ep.id === id; });
 };
 LLS.byCategory = function (cat) {
-  return LLS.episodes.filter(function (ep) { return ep.categories.some(function (value) { return value.toLowerCase().replace(/[^a-z]/g, "") === cat.toLowerCase().replace(/[^a-z]/g, ""); }); });
+  return LLS.episodes.filter(function (ep) { return ep.categories.indexOf(cat) !== -1; });
 };
 LLS.upcomingByCategory = function (cat) {
-  return LLS.upcoming.filter(function (ep) { return ep.categories.some(function (value) { return value.toLowerCase().replace(/[^a-z]/g, "") === cat.toLowerCase().replace(/[^a-z]/g, ""); }); });
+  return LLS.upcoming.filter(function (ep) { return ep.categories.indexOf(cat) !== -1; });
 };
