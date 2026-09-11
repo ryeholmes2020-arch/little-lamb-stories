@@ -35,6 +35,8 @@ window.LLS = {
       "youtubeId": "KxWIEQOSJjw",
       "duration": "1:10",
       "audience": "together",
+      "madeForKids": false,
+      "selfDeclaredMadeForKids": false,
       "categories": [
         "stories",
         "family",
@@ -55,7 +57,9 @@ window.LLS = {
       "title": "Meet the Little Lamb Heroes! 🌟 | Raya, Liam & Jayden",
       "youtubeId": "5CqQXuFnTeY",
       "duration": "2:06",
-      "audience": "together",
+      "audience": "kids",
+      "madeForKids": true,
+      "selfDeclaredMadeForKids": false,
       "categories": [
         "stories",
         "family",
@@ -75,6 +79,8 @@ window.LLS = {
       "youtubeId": "jTjP2MiicMQ",
       "duration": "1:21",
       "audience": "together",
+      "madeForKids": false,
+      "selfDeclaredMadeForKids": false,
       "categories": [
         "stories",
         "family",
@@ -93,7 +99,9 @@ window.LLS = {
       "title": "Oops, Jayden Did It Again! | Little Lamb Stories",
       "youtubeId": "XAhg3qmfXN4",
       "duration": "1:15",
-      "audience": "together",
+      "audience": "kids",
+      "madeForKids": true,
+      "selfDeclaredMadeForKids": false,
       "categories": [
         "stories",
         "comedy",
@@ -113,7 +121,9 @@ window.LLS = {
       "title": "INTEGRITY | A Heartwarming Story About Doing the Right Thing ❤️ | Little Lamb Stories",
       "youtubeId": "WSuCwSn86l4",
       "duration": "0:55",
-      "audience": "together",
+      "audience": "kids",
+      "madeForKids": true,
+      "selfDeclaredMadeForKids": false,
       "categories": [
         "stories",
         "family",
@@ -133,6 +143,8 @@ window.LLS = {
       "youtubeId": "arU3IS8CWrM",
       "duration": "1:31",
       "audience": "kids",
+      "madeForKids": false,
+      "selfDeclaredMadeForKids": false,
       "categories": [
         "stories",
         "family"
@@ -151,6 +163,8 @@ window.LLS = {
       "youtubeId": "GDwgxDKUfOQ",
       "duration": "2:59",
       "audience": "together",
+      "madeForKids": false,
+      "selfDeclaredMadeForKids": false,
       "categories": [
         "stories",
         "family",
@@ -179,7 +193,10 @@ window.LLS = {
       "values": [
         "Family",
         "Patience"
-      ]
+      ],
+      "madeForKids": false,
+      "selfDeclaredMadeForKids": false,
+      "audience": "together"
     },
     {
       "id": "our-dog-knew-my-daughter-was-in-danger-based-on-a-true-story",
@@ -193,7 +210,10 @@ window.LLS = {
       "values": [
         "Family",
         "Courage"
-      ]
+      ],
+      "madeForKids": false,
+      "selfDeclaredMadeForKids": false,
+      "audience": "together"
     }
   ]
 };
@@ -205,7 +225,7 @@ LLS.watch = function (id) {
   return "https://www.youtube.com/watch?v=" + id;
 };
 LLS.embed = function (id) {
-  return "https://www.youtube.com/embed/" + id;
+  return "https://www.youtube-nocookie.com/embed/" + id;
 };
 LLS.byId = function (id) {
   return LLS.episodes.find(function (ep) { return ep.id === id; });
