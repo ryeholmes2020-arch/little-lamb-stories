@@ -41,7 +41,7 @@ function seoBlock(file, html) {
   const episode = pageEpisode(file);
   const image = baseUrl + "/assets/family-portrait.jpg";
   const icon = baseUrl + "/assets/site-icon.jpg";
-  const graph = episode ? {
+  const graph = episode && episode.uploadDate ? {
     "@context": "https://schema.org",
     "@type": "VideoObject",
     name: episode.title,
