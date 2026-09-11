@@ -94,7 +94,7 @@ async function videosById(ids) {
   const videos = [];
   for (let index = 0; index < ids.length; index += 50) {
     const batch = ids.slice(index, index + 50);
-    const body = await youtube("videos", { part: "snippet,contentDetails,liveStreamingDetails", id: batch.join(",") });
+    const body = await youtube("videos", { part: "snippet,contentDetails,liveStreamingDetails,status", id: batch.join(",") });
     videos.push(...(body.items || []));
   }
   return videos;
@@ -124,12 +124,15 @@ function descriptionFor(video) {
 function toEpisode(video, categories, existing) {
   const old = existing.find((item) => item.youtubeId === video.id);
   const mergedCategories = [...new Set([...(old ? old.categories : []), ...categories])];
+  const madeForKids = video.status && video.status.madeForKids === true;
   return {
     id: old ? old.id : slugify(video.snippet.title, video.id),
     title: video.snippet.title,
     youtubeId: video.id,
     duration: duration(video.contentDetails.duration),
-    audience: old ? old.audience : "together",
+    audience: madeForKids ? "kids" : (old ? old.audience : "together"),
+    madeForKids,
+    selfDeclaredMadeForKids: video.status && video.status.selfDeclaredMadeForKids === true,
     categories: mergedCategories,
     values: old ? old.values : ["Family"],
     synopsis: old ? old.synopsis : descriptionFor(video),
@@ -143,7 +146,7 @@ function writeData(data) {
   const source = "window.LLS = " + JSON.stringify(data, null, 2) + ";\n\n" +
     "LLS.thumb = function (id) {\n  return \"https://img.youtube.com/vi/\" + id + \"/hqdefault.jpg\";\n};\n" +
     "LLS.watch = function (id) {\n  return \"https://www.youtube.com/watch?v=\" + id;\n};\n" +
-    "LLS.embed = function (id) {\n  return \"https://www.youtube.com/embed/\" + id;\n};\n" +
+    "LLS.embed = function (id) {\n  return \"https://www.youtube-nocookie.com/embed/\" + id;\n};\n" +
     "LLS.byId = function (id) {\n  return LLS.episodes.find(function (ep) { return ep.id === id; });\n};\n" +
     "LLS.byCategory = function (cat) {\n  return LLS.episodes.filter(function (ep) { return ep.categories.indexOf(cat) !== -1; });\n};\n" +
     "LLS.upcomingByCategory = function (cat) {\n  return LLS.upcoming.filter(function (ep) { return ep.categories.indexOf(cat) !== -1; });\n};\n";
@@ -212,7 +215,10 @@ async function main() {
     youtubeId: video.id,
     premiereAt: premiereAt(video.liveStreamingDetails && video.liveStreamingDetails.scheduledStartTime),
     categories: [...new Set([...(old ? old.categories : []), ...categoriesFor(video.id, playlistItems, playlistNames)])],
-    values: old ? old.values : ["Family"]
+    values: old ? old.values : ["Family"],
+    madeForKids: video.status && video.status.madeForKids === true,
+    selfDeclaredMadeForKids: video.status && video.status.selfDeclaredMadeForKids === true,
+    audience: video.status && video.status.madeForKids === true ? "kids" : "together"
     };
   });
   createStoryPages(data.episodes);
