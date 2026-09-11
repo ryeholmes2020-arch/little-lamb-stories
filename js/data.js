@@ -182,6 +182,22 @@ window.LLS = {
   ],
   "upcoming": [
     {
+      "id": "raya-s-sparkle-magic-a-special-power-begins-little-lamb-stories",
+      "title": "Raya's Sparkle Magic ✨ A Special Power Begins | Little Lamb Stories",
+      "youtubeId": "Rmx3mBr-0sg",
+      "premiereAt": "Sep 15, 2026, 7:00 PM GMT+8",
+      "categories": [
+        "stories",
+        "family"
+      ],
+      "values": [
+        "Family"
+      ],
+      "madeForKids": true,
+      "selfDeclaredMadeForKids": false,
+      "audience": "kids"
+    },
+    {
       "id": "he-trained-a-cockroach-for-5-years-then-this-happened",
       "title": "He Trained a Cockroach for 5 Years… Then This Happened",
       "youtubeId": "UBDzjXNlk1Y",
