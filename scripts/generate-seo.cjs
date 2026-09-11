@@ -47,7 +47,7 @@ function seoBlock(file, html) {
     name: episode.title,
     description: episode.synopsis,
     thumbnailUrl: ["https://img.youtube.com/vi/" + episode.youtubeId + "/hqdefault.jpg"],
-    embedUrl: "https://www.youtube.com/embed/" + episode.youtubeId,
+    embedUrl: "https://www.youtube-nocookie.com/embed/" + episode.youtubeId,
     contentUrl: "https://www.youtube.com/watch?v=" + episode.youtubeId,
     uploadDate: episode.uploadDate,
     duration: episode.duration && episode.duration !== "0:00" ? "PT" + episode.duration.split(":")[0] + "M" + episode.duration.split(":")[1] + "S" : undefined,

@@ -205,7 +205,7 @@ LLS.watch = function (id) {
   return "https://www.youtube.com/watch?v=" + id;
 };
 LLS.embed = function (id) {
-  return "https://www.youtube.com/embed/" + id;
+  return "https://www.youtube-nocookie.com/embed/" + id;
 };
 LLS.byId = function (id) {
   return LLS.episodes.find(function (ep) { return ep.id === id; });

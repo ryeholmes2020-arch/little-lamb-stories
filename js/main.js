@@ -81,6 +81,7 @@
         '<p>Stories that warm hearts. Families that grow together.</p>' +
         '<div class="footer-links">' +
           '<a href="' + prefix + 'parents.html">For Parents</a>' +
+          '<a href="' + prefix + 'privacy.html">Privacy</a>' +
           '<a href="' + LLS.channelUrl + '" target="_blank" rel="noopener">Watch on YouTube</a>' +
           '<a href="' + LLS.subscribeUrl + '" target="_blank" rel="noopener">Subscribe</a>' +
         '</div>' +
