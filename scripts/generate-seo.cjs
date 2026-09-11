@@ -40,6 +40,7 @@ function seoBlock(file, html) {
   const description = (html.match(/<meta name="description" content="([^"]*)"/i) || ["", "Stories for families from Little Lamb Stories."])[1];
   const episode = pageEpisode(file);
   const image = baseUrl + "/assets/family-portrait.jpg";
+  const icon = baseUrl + "/assets/site-icon.jpg";
   const graph = episode ? {
     "@context": "https://schema.org",
     "@type": "VideoObject",
@@ -65,6 +66,8 @@ function seoBlock(file, html) {
   };
   Object.keys(graph).forEach((key) => graph[key] === undefined && delete graph[key]);
   return "<!-- LLS SEO START -->\n" +
+    "<link rel=\"icon\" type=\"image/jpeg\" href=\"" + icon + "\">\n" +
+    "<link rel=\"apple-touch-icon\" href=\"" + icon + "\">\n" +
     "<link rel=\"canonical\" href=\"" + canonical + "\">\n" +
     "<meta property=\"og:type\" content=\"" + (episode ? "video.other" : "website") + "\">\n" +
     "<meta property=\"og:title\" content=\"" + escapeHtml(title) + "\">\n" +
