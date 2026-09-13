@@ -178,6 +178,24 @@ window.LLS = {
       "synopsis": "Seven days of love with a tiny sparrow — a true story about gentleness, looking after a small creature, and how care can fill a whole house.",
       "question": "When have you tried something new even though you felt scared?",
       "uploadDate": "2026-08-30T11:00:06Z"
+    },
+    {
+      "id": "our-dog-knew-my-daughter-was-in-danger-based-on-a-true-story",
+      "title": "Our Dog Knew My Daughter Was in Danger | Based on a True Story",
+      "youtubeId": "h56ay_QrMJs",
+      "duration": "6:11",
+      "audience": "together",
+      "madeForKids": false,
+      "selfDeclaredMadeForKids": false,
+      "categories": [
+        "stories"
+      ],
+      "values": [
+        "Family"
+      ],
+      "synopsis": "This is a dramatized reenactment followed by the actual CCTV footage of a frightening incident involving my 5-year-old daughter, Raya, on August 19, 2023. Around 5:30 PM, an unfamiliar car stopped across our street. At first, it didn't seem unusual because we live along the main ",
+      "question": "What did this story make you think about?",
+      "uploadDate": "2026-09-13T11:00:05Z"
     }
   ],
   "upcoming": [
@@ -209,23 +227,6 @@ window.LLS = {
       "values": [
         "Family",
         "Patience"
-      ],
-      "madeForKids": false,
-      "selfDeclaredMadeForKids": false,
-      "audience": "together"
-    },
-    {
-      "id": "our-dog-knew-my-daughter-was-in-danger-based-on-a-true-story",
-      "title": "Our Dog Knew My Daughter Was in Danger | Based on a True Story",
-      "youtubeId": "h56ay_QrMJs",
-      "premiereAt": "Sep 13, 2026, 7:00 PM GMT+8",
-      "categories": [
-        "stories",
-        "family"
-      ],
-      "values": [
-        "Family",
-        "Courage"
       ],
       "madeForKids": false,
       "selfDeclaredMadeForKids": false,
