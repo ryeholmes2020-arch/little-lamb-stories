@@ -190,9 +190,21 @@ async function main() {
     order: "date",
     maxResults: "50"
   });
+  const recentSearch = await listAll("search", {
+    part: "snippet",
+    channelId,
+    type: "video",
+    order: "date",
+    publishedAfter: new Date(Date.now() - 14 * 24 * 60 * 60 * 1000).toISOString(),
+    maxResults: "50"
+  });
   const uploadPlaylist = (await youtube("channels", { part: "contentDetails", id: channelId })).items[0].contentDetails.relatedPlaylists.uploads;
   const recentUploads = await listAll("playlistItems", { part: "snippet,contentDetails", playlistId: uploadPlaylist, maxResults: "50" });
-  const ids = [...new Set([...upcomingSearch.map((item) => item.id.videoId), ...recentUploads.map((item) => item.contentDetails.videoId)])];
+  const ids = [...new Set([
+    ...upcomingSearch.map((item) => item.id.videoId),
+    ...recentSearch.map((item) => item.id.videoId),
+    ...recentUploads.map((item) => item.contentDetails.videoId)
+  ])];
   const videos = await videosById(ids);
   const now = Date.now();
   const upcomingIds = new Set(upcomingSearch.map((item) => item.id.videoId));
