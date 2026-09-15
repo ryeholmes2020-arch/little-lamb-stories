@@ -196,14 +196,15 @@ window.LLS = {
       "synopsis": "This is a dramatized reenactment followed by the actual CCTV footage of a frightening incident involving my 5-year-old daughter, Raya, on August 19, 2023. Around 5:30 PM, an unfamiliar car stopped across our street. At first, it didn't seem unusual because we live along the main ",
       "question": "What did this story make you think about?",
       "uploadDate": "2026-09-13T11:00:05Z"
-    }
-  ],
-  "upcoming": [
+    },
     {
       "id": "raya-s-sparkle-magic-a-special-power-begins-little-lamb-stories",
       "title": "Raya's Sparkle Magic ✨ A Special Power Begins | Little Lamb Stories",
       "youtubeId": "Rmx3mBr-0sg",
-      "premiereAt": "Sep 15, 2026, 7:00 PM GMT+8",
+      "duration": "1:21",
+      "audience": "kids",
+      "madeForKids": true,
+      "selfDeclaredMadeForKids": false,
       "categories": [
         "stories",
         "family"
@@ -211,10 +212,31 @@ window.LLS = {
       "values": [
         "Family"
       ],
-      "madeForKids": true,
-      "selfDeclaredMadeForKids": false,
-      "audience": "kids"
+      "synopsis": "Raya is just an ordinary little girl… or is she? ✨ When her classmates begin noticing something extra special about her, Raya starts to discover that she has a unique gift — a magical power that could change everything! Join Raya on her magical journey as she learns to understand",
+      "question": "What did this story make you think about?",
+      "uploadDate": "2026-09-15T11:00:06Z"
     },
+    {
+      "id": "hindi-ako-makainom-ng-kape-kapag-tulog-little-lamb-joke-time-littlelam",
+      "title": "😂 HINDI AKO MAKAINOM NG KAPE KAPAG TULOG! ☕🤣 | Little Lamb Joke Time #LittleLambJokeTime #KidsComedy",
+      "youtubeId": "f7PyJ8fQKiY",
+      "duration": "0:31",
+      "audience": "together",
+      "madeForKids": false,
+      "selfDeclaredMadeForKids": false,
+      "categories": [
+        "stories",
+        "comedy"
+      ],
+      "values": [
+        "Family"
+      ],
+      "synopsis": "😂 HINDI AKO MAKAINOM NG KAPE KAPAG TULOG! ☕🤣 | Little Lamb Joke Time DESCRIPTION: May tanong si Jayden… pero hindi handa ang lahat sa sagot niya! 😂☕ Akala nila tungkol sa kape ang tanong—pero ang ending, napaisip muna silang lahat! 🤣 Welcome to LITTLE LAMB JOKE TIME! 🐑🎤 A f",
+      "question": "What did this story make you think about?",
+      "uploadDate": "2026-09-15T07:35:55Z"
+    }
+  ],
+  "upcoming": [
     {
       "id": "he-trained-a-cockroach-for-5-years-then-this-happened",
       "title": "He Trained a Cockroach for 5 Years… Then This Happened",
