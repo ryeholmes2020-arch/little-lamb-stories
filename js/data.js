@@ -238,6 +238,21 @@ window.LLS = {
   ],
   "upcoming": [
     {
+      "id": "they-found-a-magic-lamp-on-a-mysterious-island-then-the-genie-appeared",
+      "title": "They Found a Magic Lamp on a Mysterious Island… Then the Genie Appeared! 🧞‍♂️🌴",
+      "youtubeId": "E7WFdM7dEaI",
+      "premiereAt": "Sep 22, 2026, 7:00 PM GMT+8",
+      "categories": [
+        "stories"
+      ],
+      "values": [
+        "Family"
+      ],
+      "madeForKids": true,
+      "selfDeclaredMadeForKids": false,
+      "audience": "kids"
+    },
+    {
       "id": "he-trained-a-cockroach-for-5-years-then-this-happened",
       "title": "He Trained a Cockroach for 5 Years… Then This Happened",
       "youtubeId": "UBDzjXNlk1Y",
