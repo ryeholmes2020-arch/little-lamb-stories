@@ -49,7 +49,7 @@ window.LLS = {
       ],
       "synopsis": "Dad saves Mom. They fall in love. Then their kids grow up with superpowers of their own. This is the origin of The Little Lamb Heroes — a Filipino super family whose greatest power is taking care of each other.",
       "question": "If someone in our family needed help, what would you do?",
-      "uploadDate": "2026-08-28T11:22:49Z",
+      "uploadDate": "2026-08-28T11:22:49Z"
     },
     {
       "id": "meet-the-little-lamb-heroes",
