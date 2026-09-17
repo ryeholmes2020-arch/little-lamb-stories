@@ -257,6 +257,21 @@ window.LLS = {
   ],
   "upcoming": [
     {
+      "id": "hindi-siya-inutusan-pero-ginawa-niya-kusang-tumulong-moral-story-for-k",
+      "title": "Hindi Siya Inutusan… Pero Ginawa Niya. ❤️ | Kusang Tumulong | Moral Story for Kids",
+      "youtubeId": "w8jMJ6QXwrc",
+      "premiereAt": "Sep 20, 2026, 7:00 PM GMT+8",
+      "categories": [
+        "stories"
+      ],
+      "values": [
+        "Family"
+      ],
+      "madeForKids": true,
+      "selfDeclaredMadeForKids": false,
+      "audience": "kids"
+    },
+    {
       "id": "they-found-a-magic-lamp-on-a-mysterious-island-then-the-genie-appeared",
       "title": "They Found a Magic Lamp on a Mysterious Island… Then the Genie Appeared! 🧞‍♂️🌴",
       "youtubeId": "E7WFdM7dEaI",
