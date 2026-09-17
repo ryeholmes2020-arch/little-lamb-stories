@@ -234,6 +234,25 @@ window.LLS = {
       "synopsis": "😂 HINDI AKO MAKAINOM NG KAPE KAPAG TULOG! ☕🤣 | Little Lamb Joke Time DESCRIPTION: May tanong si Jayden… pero hindi handa ang lahat sa sagot niya! 😂☕ Akala nila tungkol sa kape ang tanong—pero ang ending, napaisip muna silang lahat! 🤣 Welcome to LITTLE LAMB JOKE TIME! 🐑🎤 A f",
       "question": "What did this story make you think about?",
       "uploadDate": "2026-09-15T07:35:55Z"
+    },
+    {
+      "id": "he-trained-a-cockroach-for-5-years-then-this-happened",
+      "title": "He Trained a Cockroach for 5 Years… Then This Happened",
+      "youtubeId": "UBDzjXNlk1Y",
+      "duration": "2:35",
+      "audience": "together",
+      "madeForKids": false,
+      "selfDeclaredMadeForKids": false,
+      "categories": [
+        "stories",
+        "comedy"
+      ],
+      "values": [
+        "Family"
+      ],
+      "synopsis": "He spent five years training a cockroach. Every day. Every trick. Every mistake. Five years of dedication… all leading to one unforgettable performance. Finally, he decides it's time to show the world what his little student can do. But he may have chosen the worst possible place",
+      "question": "What did this story make you think about?",
+      "uploadDate": "2026-09-17T11:00:06Z"
     }
   ],
   "upcoming": [
@@ -251,23 +270,6 @@ window.LLS = {
       "madeForKids": true,
       "selfDeclaredMadeForKids": false,
       "audience": "kids"
-    },
-    {
-      "id": "he-trained-a-cockroach-for-5-years-then-this-happened",
-      "title": "He Trained a Cockroach for 5 Years… Then This Happened",
-      "youtubeId": "UBDzjXNlk1Y",
-      "premiereAt": "Sep 17, 2026, 7:00 PM GMT+8",
-      "categories": [
-        "stories",
-        "comedy"
-      ],
-      "values": [
-        "Family",
-        "Patience"
-      ],
-      "madeForKids": false,
-      "selfDeclaredMadeForKids": false,
-      "audience": "together"
     }
   ]
 };
