@@ -50,7 +50,6 @@ window.LLS = {
       "synopsis": "Dad saves Mom. They fall in love. Then their kids grow up with superpowers of their own. This is the origin of The Little Lamb Heroes — a Filipino super family whose greatest power is taking care of each other.",
       "question": "If someone in our family needed help, what would you do?",
       "uploadDate": "2026-08-28T11:22:49Z",
-      "featured": true
     },
     {
       "id": "meet-the-little-lamb-heroes",
@@ -135,7 +134,8 @@ window.LLS = {
       ],
       "synopsis": "A heartwarming story about doing the right thing, even when it is hard — made for little ones and for families to watch together.",
       "question": "How did the characters show honesty even when it was hard?",
-      "uploadDate": "2026-09-08T11:00:06Z"
+      "uploadDate": "2026-09-08T11:00:06Z",
+      "featured": true
     },
     {
       "id": "liams-own-way",
