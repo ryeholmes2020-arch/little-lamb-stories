@@ -66,6 +66,8 @@ function seoBlock(file, html) {
   };
   Object.keys(graph).forEach((key) => graph[key] === undefined && delete graph[key]);
   return "<!-- LLS SEO START -->\n" +
+    "<script>window.va = window.va || function () { (window.vaq = window.vaq || []).push(arguments); };</script>\n" +
+    "<script defer src=\"/_vercel/insights/script.js\"></script>\n" +
     "<link rel=\"icon\" type=\"image/jpeg\" href=\"" + icon + "\">\n" +
     "<link rel=\"apple-touch-icon\" href=\"" + icon + "\">\n" +
     "<link rel=\"canonical\" href=\"" + canonical + "\">\n" +
