@@ -253,6 +253,25 @@ window.LLS = {
       "synopsis": "He spent five years training a cockroach. Every day. Every trick. Every mistake. Five years of dedication… all leading to one unforgettable performance. Finally, he decides it's time to show the world what his little student can do. But he may have chosen the worst possible place",
       "question": "What did this story make you think about?",
       "uploadDate": "2026-09-17T11:00:06Z"
+    },
+    {
+      "id": "it-s-joke-time-ano-daw-original-pinoy-jokes-aishorts-joketime-littlela",
+      "title": "It’s Joke Time! 😂 (ANO DAW?!) | Original Pinoy Jokes #aishorts #joketime #littlelambstories",
+      "youtubeId": "nDCo9x--BdY",
+      "duration": "1:05",
+      "audience": "together",
+      "madeForKids": false,
+      "selfDeclaredMadeForKids": false,
+      "categories": [
+        "stories",
+        "comedy"
+      ],
+      "values": [
+        "Family"
+      ],
+      "synopsis": "Original witty Pinoy jokes from Little Lamb Stories! 😂🇵🇭 Original witty jokes from Little Lamb Stories — sariling gawa, sariling kulit! 🇵🇭😆 Watch, laugh, and share your favorite joke with the family! ❤️ #JokeTime #OriginalPinoyJokes #PinoyComedy #KidsComedy #LittleLambStori",
+      "question": "What did this story make you think about?",
+      "uploadDate": "2026-09-19T09:35:32Z"
     }
   ],
   "upcoming": [
