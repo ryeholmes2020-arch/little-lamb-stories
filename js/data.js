@@ -272,24 +272,27 @@ window.LLS = {
       "synopsis": "Original witty Pinoy jokes from Little Lamb Stories! 😂🇵🇭 Original witty jokes from Little Lamb Stories — sariling gawa, sariling kulit! 🇵🇭😆 Watch, laugh, and share your favorite joke with the family! ❤️ #JokeTime #OriginalPinoyJokes #PinoyComedy #KidsComedy #LittleLambStori",
       "question": "What did this story make you think about?",
       "uploadDate": "2026-09-19T09:35:32Z"
-    }
-  ],
-  "upcoming": [
+    },
     {
       "id": "hindi-siya-inutusan-pero-ginawa-niya-kusang-tumulong-moral-story-for-k",
       "title": "Hindi Siya Inutusan… Pero Ginawa Niya. ❤️ | Kusang Tumulong | Moral Story for Kids",
       "youtubeId": "w8jMJ6QXwrc",
-      "premiereAt": "Sep 20, 2026, 7:00 PM GMT+8",
+      "duration": "1:13",
+      "audience": "kids",
+      "madeForKids": true,
+      "selfDeclaredMadeForKids": false,
       "categories": [
         "stories"
       ],
       "values": [
         "Family"
       ],
-      "madeForKids": true,
-      "selfDeclaredMadeForKids": false,
-      "audience": "kids"
-    },
+      "synopsis": "Habang abala ang lahat, napansin ni Liam ang mga bagay na kailangang gawin—and he chose to help. ⭐ Isang simpleng kuwento tungkol sa pagkukusa, pagtulong, at pagiging responsable. #KusangTumulong #MoralStoryForKids #FilipinoKids #GoodValues #LittleLambStories #FilipinoFamily #Fil",
+      "question": "What did this story make you think about?",
+      "uploadDate": "2026-09-20T11:00:06Z"
+    }
+  ],
+  "upcoming": [
     {
       "id": "they-found-a-magic-lamp-on-a-mysterious-island-then-the-genie-appeared",
       "title": "They Found a Magic Lamp on a Mysterious Island… Then the Genie Appeared! 🧞‍♂️🌴",
