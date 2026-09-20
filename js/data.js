@@ -277,7 +277,7 @@ window.LLS = {
       "id": "hindi-siya-inutusan-pero-ginawa-niya-kusang-tumulong-moral-story-for-k",
       "title": "Hindi Siya Inutusan… Pero Ginawa Niya. ❤️ | Kusang Tumulong | Moral Story for Kids",
       "youtubeId": "w8jMJ6QXwrc",
-      "duration": "1:13",
+      "duration": "0:00",
       "audience": "kids",
       "madeForKids": true,
       "selfDeclaredMadeForKids": false,
