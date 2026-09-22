@@ -290,6 +290,24 @@ window.LLS = {
       "synopsis": "Habang abala ang lahat, napansin ni Liam ang mga bagay na kailangang gawin—and he chose to help. ⭐ Isang simpleng kuwento tungkol sa pagkukusa, pagtulong, at pagiging responsable. #KusangTumulong #MoralStoryForKids #FilipinoKids #GoodValues #LittleLambStories #FilipinoFamily #Fil",
       "question": "What did this story make you think about?",
       "uploadDate": "2026-09-20T11:00:06Z"
+    },
+    {
+      "id": "they-found-a-magic-lamp-on-a-mysterious-island-then-the-genie-appeared",
+      "title": "They Found a Magic Lamp on a Mysterious Island… Then the Genie Appeared! 🧞‍♂️🌴",
+      "youtubeId": "E7WFdM7dEaI",
+      "duration": "7:51",
+      "audience": "kids",
+      "madeForKids": true,
+      "selfDeclaredMadeForKids": false,
+      "categories": [
+        "stories"
+      ],
+      "values": [
+        "Family"
+      ],
+      "synopsis": "🌴🧞‍♂️ THEY FOUND A MAGIC LAMP… AND THEN A GENIE APPEARED! ✨ Liam, Raya, and little Jayden are enjoying a fun boat ride when a sudden hurricane sends them far off course and leaves them stranded on a mysterious island. As the three siblings explore the island, Liam discovers som",
+      "question": "What did this story make you think about?",
+      "uploadDate": "2026-09-22T11:00:09Z"
     }
   ],
   "upcoming": [
@@ -298,21 +316,6 @@ window.LLS = {
       "title": "Raya’s Little Acts of Kindness ❤️ | A Heartwarming Story for Kids",
       "youtubeId": "Jj0xJLH4OOs",
       "premiereAt": "Sep 24, 2026, 7:00 PM GMT+8",
-      "categories": [
-        "stories"
-      ],
-      "values": [
-        "Family"
-      ],
-      "madeForKids": true,
-      "selfDeclaredMadeForKids": false,
-      "audience": "kids"
-    },
-    {
-      "id": "they-found-a-magic-lamp-on-a-mysterious-island-then-the-genie-appeared",
-      "title": "They Found a Magic Lamp on a Mysterious Island… Then the Genie Appeared! 🧞‍♂️🌴",
-      "youtubeId": "E7WFdM7dEaI",
-      "premiereAt": "Sep 22, 2026, 7:00 PM GMT+8",
       "categories": [
         "stories"
       ],
