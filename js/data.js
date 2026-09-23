@@ -308,9 +308,43 @@ window.LLS = {
       "synopsis": "🌴🧞‍♂️ THEY FOUND A MAGIC LAMP… AND THEN A GENIE APPEARED! ✨ Liam, Raya, and little Jayden are enjoying a fun boat ride when a sudden hurricane sends them far off course and leaves them stranded on a mysterious island. As the three siblings explore the island, Liam discovers som",
       "question": "What did this story make you think about?",
       "uploadDate": "2026-09-22T11:00:09Z"
+    },
+    {
+      "id": "it-s-joke-time-cool-sya-original-pinoy-jokes-aishorts-joketime-littlel",
+      "title": "It’s Joke Time! 😂 (COOL SYA?!) | Original Pinoy Jokes #aishorts #joketime #littlelambstories",
+      "youtubeId": "pOCXMLsPv4Q",
+      "duration": "0:51",
+      "audience": "together",
+      "madeForKids": false,
+      "selfDeclaredMadeForKids": false,
+      "categories": [
+        "stories",
+        "comedy"
+      ],
+      "values": [
+        "Family"
+      ],
+      "synopsis": "Original witty Pinoy jokes from Little Lamb Stories! 😂🇵🇭 Original witty jokes from Little Lamb Stories — sariling gawa, sariling kulit! 🇵🇭😆 Watch, laugh, and share your favorite joke with the family! ❤️ #JokeTime #OriginalPinoyJokes #PinoyComedy #KidsComedy #LittleLambStori",
+      "question": "What did this story make you think about?",
+      "uploadDate": "2026-09-23T15:06:34Z"
     }
   ],
   "upcoming": [
+    {
+      "id": "the-magical-bird-that-stole-their-shadows-little-lamb-stories",
+      "title": "The Magical Bird That Stole Their Shadows! 🪽✨ | Little Lamb Stories",
+      "youtubeId": "KCTI6KhGFnk",
+      "premiereAt": "Sep 29, 2026, 7:00 PM GMT+8",
+      "categories": [
+        "stories"
+      ],
+      "values": [
+        "Family"
+      ],
+      "madeForKids": true,
+      "selfDeclaredMadeForKids": false,
+      "audience": "kids"
+    },
     {
       "id": "raya-s-little-acts-of-kindness-a-heartwarming-story-for-kids",
       "title": "Raya’s Little Acts of Kindness ❤️ | A Heartwarming Story for Kids",
