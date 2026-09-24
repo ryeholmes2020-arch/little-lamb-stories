@@ -349,6 +349,21 @@ window.LLS = {
   ],
   "upcoming": [
     {
+      "id": "huwag-maging-maramot-ang-aral-ni-raya",
+      "title": "Huwag Maging Maramot ❤️ | Ang Aral ni Raya",
+      "youtubeId": "c2F6SF9cNe4",
+      "premiereAt": "Sep 27, 2026, 7:00 PM GMT+8",
+      "categories": [
+        "stories"
+      ],
+      "values": [
+        "Family"
+      ],
+      "madeForKids": false,
+      "selfDeclaredMadeForKids": false,
+      "audience": "together"
+    },
+    {
       "id": "the-magical-bird-that-stole-their-shadows-little-lamb-stories",
       "title": "The Magical Bird That Stole Their Shadows! 🪽✨ | Little Lamb Stories",
       "youtubeId": "KCTI6KhGFnk",
