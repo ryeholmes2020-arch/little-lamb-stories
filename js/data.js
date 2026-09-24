@@ -327,6 +327,24 @@ window.LLS = {
       "synopsis": "Original witty Pinoy jokes from Little Lamb Stories! 😂🇵🇭 Original witty jokes from Little Lamb Stories — sariling gawa, sariling kulit! 🇵🇭😆 Watch, laugh, and share your favorite joke with the family! ❤️ #JokeTime #OriginalPinoyJokes #PinoyComedy #KidsComedy #LittleLambStori",
       "question": "What did this story make you think about?",
       "uploadDate": "2026-09-23T15:06:34Z"
+    },
+    {
+      "id": "raya-s-little-acts-of-kindness-a-heartwarming-story-for-kids",
+      "title": "Raya’s Little Acts of Kindness ❤️ | A Heartwarming Story for Kids",
+      "youtubeId": "Jj0xJLH4OOs",
+      "duration": "1:46",
+      "audience": "kids",
+      "madeForKids": true,
+      "selfDeclaredMadeForKids": false,
+      "categories": [
+        "stories"
+      ],
+      "values": [
+        "Family"
+      ],
+      "synopsis": "What happens when one little act of kindness inspires another? ❤️ Join Raya on a beautiful afternoon as she helps people around her—helping an elderly woman cross the street, returning a little child’s balloon, helping pick up spilled groceries, and showing that even the smallest",
+      "question": "What did this story make you think about?",
+      "uploadDate": "2026-09-24T11:00:06Z"
     }
   ],
   "upcoming": [
@@ -335,21 +353,6 @@ window.LLS = {
       "title": "The Magical Bird That Stole Their Shadows! 🪽✨ | Little Lamb Stories",
       "youtubeId": "KCTI6KhGFnk",
       "premiereAt": "Sep 29, 2026, 7:00 PM GMT+8",
-      "categories": [
-        "stories"
-      ],
-      "values": [
-        "Family"
-      ],
-      "madeForKids": true,
-      "selfDeclaredMadeForKids": false,
-      "audience": "kids"
-    },
-    {
-      "id": "raya-s-little-acts-of-kindness-a-heartwarming-story-for-kids",
-      "title": "Raya’s Little Acts of Kindness ❤️ | A Heartwarming Story for Kids",
-      "youtubeId": "Jj0xJLH4OOs",
-      "premiereAt": "Sep 24, 2026, 7:00 PM GMT+8",
       "categories": [
         "stories"
       ],
