@@ -345,6 +345,24 @@ window.LLS = {
       "synopsis": "What happens when one little act of kindness inspires another? ❤️ Join Raya on a beautiful afternoon as she helps people around her—helping an elderly woman cross the street, returning a little child’s balloon, helping pick up spilled groceries, and showing that even the smallest",
       "question": "What did this story make you think about?",
       "uploadDate": "2026-09-24T11:00:06Z"
+    },
+    {
+      "id": "huwag-maging-maramot-ang-aral-ni-raya",
+      "title": "Huwag Maging Maramot ❤️ | Ang Aral ni Raya",
+      "youtubeId": "c2F6SF9cNe4",
+      "duration": "1:44",
+      "audience": "together",
+      "madeForKids": false,
+      "selfDeclaredMadeForKids": false,
+      "categories": [
+        "stories"
+      ],
+      "values": [
+        "Family"
+      ],
+      "synopsis": "A heartwarming Little Lamb Stories film for kids and families. Sa kuwentong ito, matututuhan ng mga bata ang kahalagahan ng pagbabahagi at ang saya ng pagbibigay sa iba. #LittleLambStories #HuwagMagingMaramot #SharingIsCaring #KidsStories #MoralStory #FilipinoKids #KidsMoralStori",
+      "question": "What did this story make you think about?",
+      "uploadDate": "2026-09-27T11:00:06Z"
     }
   ],
   "upcoming": [
@@ -362,21 +380,6 @@ window.LLS = {
       "madeForKids": true,
       "selfDeclaredMadeForKids": false,
       "audience": "kids"
-    },
-    {
-      "id": "huwag-maging-maramot-ang-aral-ni-raya",
-      "title": "Huwag Maging Maramot ❤️ | Ang Aral ni Raya",
-      "youtubeId": "c2F6SF9cNe4",
-      "premiereAt": "Sep 27, 2026, 7:00 PM GMT+8",
-      "categories": [
-        "stories"
-      ],
-      "values": [
-        "Family"
-      ],
-      "madeForKids": false,
-      "selfDeclaredMadeForKids": false,
-      "audience": "together"
     },
     {
       "id": "the-magical-bird-that-stole-their-shadows-little-lamb-stories",
