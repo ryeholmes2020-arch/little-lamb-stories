@@ -349,6 +349,21 @@ window.LLS = {
   ],
   "upcoming": [
     {
+      "id": "they-found-a-hidden-kingdom-but-maxie-was-its-guardian",
+      "title": "They Found a Hidden Kingdom… But Maxie Was Its Guardian! 🐕✨",
+      "youtubeId": "791akOCIB2A",
+      "premiereAt": "Oct 6, 2026, 7:00 PM GMT+8",
+      "categories": [
+        "stories"
+      ],
+      "values": [
+        "Family"
+      ],
+      "madeForKids": true,
+      "selfDeclaredMadeForKids": false,
+      "audience": "kids"
+    },
+    {
       "id": "huwag-maging-maramot-ang-aral-ni-raya",
       "title": "Huwag Maging Maramot ❤️ | Ang Aral ni Raya",
       "youtubeId": "c2F6SF9cNe4",
