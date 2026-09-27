@@ -350,7 +350,7 @@ window.LLS = {
       "id": "huwag-maging-maramot-ang-aral-ni-raya",
       "title": "Huwag Maging Maramot ❤️ | Ang Aral ni Raya",
       "youtubeId": "c2F6SF9cNe4",
-      "duration": "1:44",
+      "duration": "0:00",
       "audience": "together",
       "madeForKids": false,
       "selfDeclaredMadeForKids": false,
