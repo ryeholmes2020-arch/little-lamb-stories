@@ -363,6 +363,25 @@ window.LLS = {
       "synopsis": "A heartwarming Little Lamb Stories film for kids and families. Sa kuwentong ito, matututuhan ng mga bata ang kahalagahan ng pagbabahagi at ang saya ng pagbibigay sa iba. #LittleLambStories #HuwagMagingMaramot #SharingIsCaring #KidsStories #MoralStory #FilipinoKids #KidsMoralStori",
       "question": "What did this story make you think about?",
       "uploadDate": "2026-09-27T11:00:06Z"
+    },
+    {
+      "id": "it-s-joke-time-bakit-ang-pagong-original-pinoy-jokes-aishorts-joketime",
+      "title": "It’s Joke Time! 😂 (BAKIT ANG PAGONG..) | Original Pinoy Jokes #aishorts #joketime #littlelambstories",
+      "youtubeId": "qVvi1OE-c1w",
+      "duration": "0:41",
+      "audience": "together",
+      "madeForKids": false,
+      "selfDeclaredMadeForKids": false,
+      "categories": [
+        "stories",
+        "comedy"
+      ],
+      "values": [
+        "Family"
+      ],
+      "synopsis": "Original witty Pinoy jokes from Little Lamb Stories! 😂🇵🇭 Original witty jokes from Little Lamb Stories — sariling gawa, sariling kulit! 🇵🇭😆 Watch, laugh, and share your favorite joke with the family! ❤️ #JokeTime #OriginalPinoyJokes #PinoyComedy #KidsComedy #LittleLambStori",
+      "question": "What did this story make you think about?",
+      "uploadDate": "2026-09-28T15:07:52Z"
     }
   ],
   "upcoming": [
