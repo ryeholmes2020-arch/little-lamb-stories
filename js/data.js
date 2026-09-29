@@ -382,6 +382,24 @@ window.LLS = {
       "synopsis": "Original witty Pinoy jokes from Little Lamb Stories! 😂🇵🇭 Original witty jokes from Little Lamb Stories — sariling gawa, sariling kulit! 🇵🇭😆 Watch, laugh, and share your favorite joke with the family! ❤️ #JokeTime #OriginalPinoyJokes #PinoyComedy #KidsComedy #LittleLambStori",
       "question": "What did this story make you think about?",
       "uploadDate": "2026-09-28T15:07:52Z"
+    },
+    {
+      "id": "the-magical-bird-that-stole-their-shadows-little-lamb-stories",
+      "title": "The Magical Bird That Stole Their Shadows! 🪽✨ | Little Lamb Stories",
+      "youtubeId": "KCTI6KhGFnk",
+      "duration": "5:11",
+      "audience": "kids",
+      "madeForKids": true,
+      "selfDeclaredMadeForKids": false,
+      "categories": [
+        "stories"
+      ],
+      "values": [
+        "Family"
+      ],
+      "synopsis": "Three brave siblings—Liam, Raya, and little Jayden—enter a mysterious enchanted forest and discover a magical bird unlike anything they've ever seen. 🪽✨ But when the bird sings, something unbelievable happens… their shadows are stolen! 😱 As the children follow their missing sha",
+      "question": "What did this story make you think about?",
+      "uploadDate": "2026-09-29T11:00:06Z"
     }
   ],
   "upcoming": [
@@ -390,21 +408,6 @@ window.LLS = {
       "title": "They Found a Hidden Kingdom… But Maxie Was Its Guardian! 🐕✨",
       "youtubeId": "791akOCIB2A",
       "premiereAt": "Oct 6, 2026, 7:00 PM GMT+8",
-      "categories": [
-        "stories"
-      ],
-      "values": [
-        "Family"
-      ],
-      "madeForKids": true,
-      "selfDeclaredMadeForKids": false,
-      "audience": "kids"
-    },
-    {
-      "id": "the-magical-bird-that-stole-their-shadows-little-lamb-stories",
-      "title": "The Magical Bird That Stole Their Shadows! 🪽✨ | Little Lamb Stories",
-      "youtubeId": "KCTI6KhGFnk",
-      "premiereAt": "Sep 29, 2026, 7:00 PM GMT+8",
       "categories": [
         "stories"
       ],
