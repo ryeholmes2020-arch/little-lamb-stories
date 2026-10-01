@@ -422,6 +422,21 @@ window.LLS = {
   ],
   "upcoming": [
     {
+      "id": "pina-ang-batang-naging-pinya-isang-kuwento-tungkol-sa-pagsunod-at-pagm",
+      "title": "PINA: ANG BATANG NAGING PINYA 🍍 | Isang Kuwento Tungkol sa Pagsunod at Pagmamahal",
+      "youtubeId": "ICYip6AKkYc",
+      "premiereAt": "Oct 8, 2026, 7:00 PM GMT+8",
+      "categories": [
+        "stories"
+      ],
+      "values": [
+        "Family"
+      ],
+      "madeForKids": false,
+      "selfDeclaredMadeForKids": false,
+      "audience": "together"
+    },
+    {
       "id": "they-found-a-hidden-kingdom-but-maxie-was-its-guardian",
       "title": "They Found a Hidden Kingdom… But Maxie Was Its Guardian! 🐕✨",
       "youtubeId": "791akOCIB2A",
