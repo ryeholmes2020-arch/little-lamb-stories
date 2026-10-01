@@ -400,6 +400,24 @@ window.LLS = {
       "synopsis": "Three brave siblings—Liam, Raya, and little Jayden—enter a mysterious enchanted forest and discover a magical bird unlike anything they've ever seen. 🪽✨ But when the bird sings, something unbelievable happens… their shadows are stolen! 😱 As the children follow their missing sha",
       "question": "What did this story make you think about?",
       "uploadDate": "2026-09-29T11:00:06Z"
+    },
+    {
+      "id": "what-if-the-world-felt-10-times-louder-understanding-sensory-sensitivi",
+      "title": "What If the World Felt 10 Times Louder? | Understanding Sensory Sensitivity",
+      "youtubeId": "0Wl5x7GgYfY",
+      "duration": "1:14",
+      "audience": "together",
+      "madeForKids": false,
+      "selfDeclaredMadeForKids": false,
+      "categories": [
+        "stories"
+      ],
+      "values": [
+        "Family"
+      ],
+      "synopsis": "What if the sounds around you suddenly felt 10 times louder? For some children on the autism spectrum, everyday sounds in a classroom may feel overwhelming. This short, realistic classroom re-enactment offers a glimpse into how sensory sensitivity can affect a child's experience.",
+      "question": "What did this story make you think about?",
+      "uploadDate": "2026-10-01T12:35:38Z"
     }
   ],
   "upcoming": [
