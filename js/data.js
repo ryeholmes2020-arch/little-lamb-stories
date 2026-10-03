@@ -418,6 +418,25 @@ window.LLS = {
       "synopsis": "What if the sounds around you suddenly felt 10 times louder? For some children on the autism spectrum, everyday sounds in a classroom may feel overwhelming. This short, realistic classroom re-enactment offers a glimpse into how sensory sensitivity can affect a child's experience.",
       "question": "What did this story make you think about?",
       "uploadDate": "2026-10-01T12:35:38Z"
+    },
+    {
+      "id": "it-s-joke-time-ikot-ikot-lang-original-pinoy-jokes-aishorts-joketime-l",
+      "title": "It’s Joke Time! 😂 (IKOT IKOT LANG?!) | Original Pinoy Jokes #aishorts #joketime #littlelambstories",
+      "youtubeId": "npbB_mrEryw",
+      "duration": "1:06",
+      "audience": "together",
+      "madeForKids": false,
+      "selfDeclaredMadeForKids": false,
+      "categories": [
+        "stories",
+        "comedy"
+      ],
+      "values": [
+        "Family"
+      ],
+      "synopsis": "Original witty Pinoy jokes from Little Lamb Stories! 😂🇵🇭 Original witty jokes from Little Lamb Stories — sariling gawa, sariling kulit! 🇵🇭😆 Watch, laugh, and share your favorite joke with the family! ❤️ #JokeTime #OriginalPinoyJokes #PinoyComedy #KidsComedy #LittleLambStori",
+      "question": "What did this story make you think about?",
+      "uploadDate": "2026-10-03T02:00:26Z"
     }
   ],
   "upcoming": [
