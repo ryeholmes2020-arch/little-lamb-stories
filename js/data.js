@@ -441,6 +441,21 @@ window.LLS = {
   ],
   "upcoming": [
     {
+      "id": "the-wild-quest-the-game-that-chose-them-a-magical-adventure-little-lam",
+      "title": "THE WILD QUEST: The Game That Chose Them! 🦍🎲✨ | A Magical Adventure | Little Lamb Stories",
+      "youtubeId": "zsFHqoxvcj4",
+      "premiereAt": "Oct 13, 2026, 7:00 PM GMT+8",
+      "categories": [
+        "stories"
+      ],
+      "values": [
+        "Family"
+      ],
+      "madeForKids": true,
+      "selfDeclaredMadeForKids": false,
+      "audience": "kids"
+    },
+    {
       "id": "pina-ang-batang-naging-pinya-isang-kuwento-tungkol-sa-pagsunod-at-pagm",
       "title": "PINA: ANG BATANG NAGING PINYA 🍍 | Isang Kuwento Tungkol sa Pagsunod at Pagmamahal",
       "youtubeId": "ICYip6AKkYc",
