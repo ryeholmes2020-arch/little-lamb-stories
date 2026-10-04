@@ -437,6 +437,24 @@ window.LLS = {
       "synopsis": "Original witty Pinoy jokes from Little Lamb Stories! 😂🇵🇭 Original witty jokes from Little Lamb Stories — sariling gawa, sariling kulit! 🇵🇭😆 Watch, laugh, and share your favorite joke with the family! ❤️ #JokeTime #OriginalPinoyJokes #PinoyComedy #KidsComedy #LittleLambStori",
       "question": "What did this story make you think about?",
       "uploadDate": "2026-10-03T02:00:26Z"
+    },
+    {
+      "id": "el-ni-o-maghanda-tayo-elninoph-elnino2026-elninotips",
+      "title": "EL NIÑO: MAGHANDA TAYO! ☀️💧#ElNinoPH  #ElNino2026  #ElNinoTips",
+      "youtubeId": "nDYRIhAQwFM",
+      "duration": "1:10",
+      "audience": "together",
+      "madeForKids": false,
+      "selfDeclaredMadeForKids": false,
+      "categories": [
+        "stories"
+      ],
+      "values": [
+        "Family"
+      ],
+      "synopsis": "EL NIÑO: MAGHANDA TAYO! ☀️💧 5 Simpleng Paraan Para Maging Handa Save this for later and share with your family. ❤️ #LittleLambStories #FilipinoFamily #ElNinoPH #ElNino2026 #ElNinoTips #HeatSafety #WaterConservation #KidsLearning",
+      "question": "What did this story make you think about?",
+      "uploadDate": "2026-10-04T08:47:44Z"
     }
   ],
   "upcoming": [
