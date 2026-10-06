@@ -455,6 +455,24 @@ window.LLS = {
       "synopsis": "EL NIÑO: MAGHANDA TAYO! ☀️💧 5 Simpleng Paraan Para Maging Handa Save this for later and share with your family. ❤️ #LittleLambStories #FilipinoFamily #ElNinoPH #ElNino2026 #ElNinoTips #HeatSafety #WaterConservation #KidsLearning",
       "question": "What did this story make you think about?",
       "uploadDate": "2026-10-04T08:47:44Z"
+    },
+    {
+      "id": "they-found-a-hidden-kingdom-but-maxie-was-its-guardian",
+      "title": "They Found a Hidden Kingdom… But Maxie Was Its Guardian! 🐕✨",
+      "youtubeId": "791akOCIB2A",
+      "duration": "2:47",
+      "audience": "kids",
+      "madeForKids": true,
+      "selfDeclaredMadeForKids": false,
+      "categories": [
+        "stories"
+      ],
+      "values": [
+        "Family"
+      ],
+      "synopsis": "They thought Maxie was just their family dog… until he led them into a hidden magical kingdom. 🐕✨ When Liam, Raya, Jayden, and Maxie discover a mysterious doorway, they find themselves in an enchanted world filled with ancient ruins, magical secrets, a powerful guardian, and a m",
+      "question": "What did this story make you think about?",
+      "uploadDate": "2026-10-06T11:00:08Z"
     }
   ],
   "upcoming": [
@@ -487,21 +505,6 @@ window.LLS = {
       "madeForKids": false,
       "selfDeclaredMadeForKids": false,
       "audience": "together"
-    },
-    {
-      "id": "they-found-a-hidden-kingdom-but-maxie-was-its-guardian",
-      "title": "They Found a Hidden Kingdom… But Maxie Was Its Guardian! 🐕✨",
-      "youtubeId": "791akOCIB2A",
-      "premiereAt": "Oct 6, 2026, 7:00 PM GMT+8",
-      "categories": [
-        "stories"
-      ],
-      "values": [
-        "Family"
-      ],
-      "madeForKids": true,
-      "selfDeclaredMadeForKids": false,
-      "audience": "kids"
     }
   ]
 };
