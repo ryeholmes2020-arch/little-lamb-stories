@@ -473,6 +473,24 @@ window.LLS = {
       "synopsis": "They thought Maxie was just their family dog… until he led them into a hidden magical kingdom. 🐕✨ When Liam, Raya, Jayden, and Maxie discover a mysterious doorway, they find themselves in an enchanted world filled with ancient ruins, magical secrets, a powerful guardian, and a m",
       "question": "What did this story make you think about?",
       "uploadDate": "2026-10-06T11:00:08Z"
+    },
+    {
+      "id": "pina-ang-batang-naging-pinya-isang-kuwento-tungkol-sa-pagsunod-at-pagm",
+      "title": "PINA: ANG BATANG NAGING PINYA 🍍 | Isang Kuwento Tungkol sa Pagsunod at Pagmamahal",
+      "youtubeId": "ICYip6AKkYc",
+      "duration": "3:28",
+      "audience": "together",
+      "madeForKids": false,
+      "selfDeclaredMadeForKids": false,
+      "categories": [
+        "stories"
+      ],
+      "values": [
+        "Family"
+      ],
+      "synopsis": "🍍 PINA: ANG BATANG NAGING PINYA 🍍 Isang araw, dahil sa kanyang pagiging matigas ang ulo at hindi pakikinig sa kanyang ina, nakaranas si Pina ng isang mahiwagang pangyayari na hindi niya kailanman makakalimutan. Nang sabihin ng kanyang ina, “Sana naging pinya ka na lang,” isang ",
+      "question": "What did this story make you think about?",
+      "uploadDate": "2026-10-08T11:00:10Z"
     }
   ],
   "upcoming": [
@@ -490,21 +508,6 @@ window.LLS = {
       "madeForKids": true,
       "selfDeclaredMadeForKids": false,
       "audience": "kids"
-    },
-    {
-      "id": "pina-ang-batang-naging-pinya-isang-kuwento-tungkol-sa-pagsunod-at-pagm",
-      "title": "PINA: ANG BATANG NAGING PINYA 🍍 | Isang Kuwento Tungkol sa Pagsunod at Pagmamahal",
-      "youtubeId": "ICYip6AKkYc",
-      "premiereAt": "Oct 8, 2026, 7:00 PM GMT+8",
-      "categories": [
-        "stories"
-      ],
-      "values": [
-        "Family"
-      ],
-      "madeForKids": false,
-      "selfDeclaredMadeForKids": false,
-      "audience": "together"
     }
   ]
 };
