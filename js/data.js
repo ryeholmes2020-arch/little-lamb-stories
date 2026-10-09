@@ -491,6 +491,24 @@ window.LLS = {
       "synopsis": "🍍 PINA: ANG BATANG NAGING PINYA 🍍 Isang araw, dahil sa kanyang pagiging matigas ang ulo at hindi pakikinig sa kanyang ina, nakaranas si Pina ng isang mahiwagang pangyayari na hindi niya kailanman makakalimutan. Nang sabihin ng kanyang ina, “Sana naging pinya ka na lang,” isang ",
       "question": "What did this story make you think about?",
       "uploadDate": "2026-10-08T11:00:10Z"
+    },
+    {
+      "id": "collective-nouns-for-kids-learn-with-liam-littlelambstories-learnwithl",
+      "title": "Collective Nouns for Kids 🦁🦈🦜 | Learn with Liam! #Littlelambstories #LearnWithLiam #KidsLearning",
+      "youtubeId": "klZ-L2X4s58",
+      "duration": "1:12",
+      "audience": "kids",
+      "madeForKids": true,
+      "selfDeclaredMadeForKids": false,
+      "categories": [
+        "stories"
+      ],
+      "values": [
+        "Family"
+      ],
+      "synopsis": "What do you call a group of parrots, sharks, lions, and other animals? 🦜🦈🦁 In this fun \"Learn with Liam\" episode, kids learn \"collective nouns\" for animals in a simple and engaging way. Perfect for children learning English grammar, vocabulary, and collective nouns. Learn fun ",
+      "question": "What did this story make you think about?",
+      "uploadDate": "2026-10-09T14:51:14Z"
     }
   ],
   "upcoming": [
