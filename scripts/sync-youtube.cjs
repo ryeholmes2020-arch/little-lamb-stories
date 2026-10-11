@@ -218,7 +218,12 @@ async function main() {
   const syncedEpisodes = published.map((video) => toEpisode(video, categoriesFor(video.id, playlistItems, playlistNames), existingEpisodes));
   const episodeById = new Map(existingEpisodes.map((item) => [item.youtubeId, item]));
   for (const episode of syncedEpisodes) episodeById.set(episode.youtubeId, episode);
-  data.episodes = [...episodeById.values()];
+  data.episodes = [...episodeById.values()].sort((first, second) => {
+    const firstDate = Date.parse(first.uploadDate);
+    const secondDate = Date.parse(second.uploadDate);
+    return (Number.isFinite(secondDate) ? secondDate : -Infinity) -
+      (Number.isFinite(firstDate) ? firstDate : -Infinity) || 0;
+  });
   data.upcoming = videos.filter((video) => upcomingIds.has(video.id)).map((video) => {
     const old = existingUpcoming.find((item) => item.youtubeId === video.id);
     return {

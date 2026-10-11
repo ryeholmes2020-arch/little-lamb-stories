@@ -13,6 +13,12 @@
 
   const nav = currentNav();
   const prefix = path.indexOf("/stories/") !== -1 || path.indexOf("/categories/") !== -1 ? "../" : "";
+  const episodes = LLS.episodes.slice().sort(function (first, second) {
+    var firstDate = Date.parse(first.uploadDate);
+    var secondDate = Date.parse(second.uploadDate);
+    return (Number.isFinite(secondDate) ? secondDate : -Infinity) -
+      (Number.isFinite(firstDate) ? firstDate : -Infinity) || 0;
+  });
   const categoryOverrides = {
     KxWIEQOSJjw: ["superheroes", "family", "stories"],
     "5CqQXuFnTeY": ["superheroes", "family"],
@@ -30,7 +36,7 @@
     });
   }
   function episodesByCategory(category) {
-    return LLS.episodes.filter(function (item) { return hasCategory(item, category); });
+    return episodes.filter(function (item) { return hasCategory(item, category); });
   }
   function upcomingByCategory(category) {
     return LLS.upcoming.filter(function (item) { return hasCategory(item, category); });
@@ -117,7 +123,7 @@
 
   document.querySelectorAll("[data-shelf]").forEach(function (el) {
     const cat = el.getAttribute("data-shelf");
-    const list = cat === "all" ? LLS.episodes : episodesByCategory(cat);
+    const list = cat === "all" ? episodes : episodesByCategory(cat);
     el.innerHTML = list.map(function (ep) { return cardHTML(ep, false); }).join("");
   });
 
@@ -197,7 +203,7 @@
       episodeRoot.querySelector("[data-watch]").href = LLS.watch(ep.youtubeId);
       episodeRoot.querySelector("[data-embed]").src = LLS.embed(ep.youtubeId);
       var next = episodeRoot.querySelector("[data-next]");
-      var others = LLS.episodes.filter(function (e) { return e.id !== ep.id; }).slice(0, 4);
+      var others = episodes.filter(function (e) { return e.id !== ep.id; }).slice(0, 4);
       next.innerHTML = others.map(function (item) { return cardHTML(item, false); }).join("");
     }
   }
