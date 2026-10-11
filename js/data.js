@@ -509,6 +509,24 @@ window.LLS = {
       "synopsis": "What do you call a group of parrots, sharks, lions, and other animals? 🦜🦈🦁 In this fun \"Learn with Liam\" episode, kids learn \"collective nouns\" for animals in a simple and engaging way. Perfect for children learning English grammar, vocabulary, and collective nouns. Learn fun ",
       "question": "What did this story make you think about?",
       "uploadDate": "2026-10-09T14:51:14Z"
+    },
+    {
+      "id": "5-annoying-things-about-golden-retrievers",
+      "title": "5 Annoying Things About Golden Retrievers 😂🐕💛",
+      "youtubeId": "OVrJDkb_G6Q",
+      "duration": "1:00",
+      "audience": "kids",
+      "madeForKids": true,
+      "selfDeclaredMadeForKids": false,
+      "categories": [
+        "stories"
+      ],
+      "values": [
+        "Family"
+      ],
+      "synopsis": "Golden Retrievers are loving, playful, and ridiculously adorable… but they can also be a handful! 😂🐾 From following you everywhere to demanding attention at the worst possible time, here are 5 funny things about living with a Golden Retriever. Annoying? Maybe. Impossible not to",
+      "question": "What did this story make you think about?",
+      "uploadDate": "2026-10-11T01:00:39Z"
     }
   ],
   "upcoming": [
