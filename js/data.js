@@ -134,8 +134,7 @@ window.LLS = {
       ],
       "synopsis": "A heartwarming story about doing the right thing, even when it is hard — made for little ones and for families to watch together.",
       "question": "How did the characters show honesty even when it was hard?",
-      "uploadDate": "2026-09-08T11:00:06Z",
-      "featured": true
+      "uploadDate": "2026-09-08T11:00:06Z"
     },
     {
       "id": "liams-own-way",
@@ -417,7 +416,8 @@ window.LLS = {
       ],
       "synopsis": "What if the sounds around you suddenly felt 10 times louder? For some children on the autism spectrum, everyday sounds in a classroom may feel overwhelming. This short, realistic classroom re-enactment offers a glimpse into how sensory sensitivity can affect a child's experience.",
       "question": "What did this story make you think about?",
-      "uploadDate": "2026-10-01T12:35:38Z"
+      "uploadDate": "2026-10-01T12:35:38Z",
+      "featured": true
     },
     {
       "id": "it-s-joke-time-ikot-ikot-lang-original-pinoy-jokes-aishorts-joketime-l",
