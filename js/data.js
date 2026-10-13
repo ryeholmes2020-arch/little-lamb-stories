@@ -30,6 +30,24 @@ window.LLS = {
   ],
   "episodes": [
     {
+      "id": "the-wild-quest-the-game-that-chose-them-a-magical-adventure-little-lam",
+      "title": "THE WILD QUEST: The Game That Chose Them! 🦍🎲✨ | A Magical Adventure | Little Lamb Stories",
+      "youtubeId": "zsFHqoxvcj4",
+      "duration": "1:31",
+      "audience": "kids",
+      "madeForKids": true,
+      "selfDeclaredMadeForKids": false,
+      "categories": [
+        "stories"
+      ],
+      "values": [
+        "Family"
+      ],
+      "synopsis": "🎲🦍 THE WILD QUEST: THE GAME THAT CHOSE THEM! ✨ Liam, Raya, and little Jayden discover a mysterious wooden game unlike anything they've ever seen. But when they start playing, something incredible happens... The game comes to life and pulls them into a magical Wild Realm! 🌿✨ Th",
+      "question": "What did this story make you think about?",
+      "uploadDate": "2026-10-13T11:00:09Z"
+    },
+    {
       "id": "5-annoying-things-about-golden-retrievers",
       "title": "5 Annoying Things About Golden Retrievers 😂🐕💛",
       "youtubeId": "OVrJDkb_G6Q",
@@ -535,21 +553,6 @@ window.LLS = {
       "title": "NAGHINTAY NA LANG MAHULOG ANG BAYABAS! 😂🌳 | Si Juan Tamad | Kuwentong Pambata",
       "youtubeId": "YHHoBCUxuHQ",
       "premiereAt": "Oct 15, 2026, 7:00 PM GMT+8",
-      "categories": [
-        "stories"
-      ],
-      "values": [
-        "Family"
-      ],
-      "madeForKids": true,
-      "selfDeclaredMadeForKids": false,
-      "audience": "kids"
-    },
-    {
-      "id": "the-wild-quest-the-game-that-chose-them-a-magical-adventure-little-lam",
-      "title": "THE WILD QUEST: The Game That Chose Them! 🦍🎲✨ | A Magical Adventure | Little Lamb Stories",
-      "youtubeId": "zsFHqoxvcj4",
-      "premiereAt": "Oct 13, 2026, 7:00 PM GMT+8",
       "categories": [
         "stories"
       ],
