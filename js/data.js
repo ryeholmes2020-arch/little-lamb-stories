@@ -549,6 +549,21 @@ window.LLS = {
   ],
   "upcoming": [
     {
+      "id": "ang-alamat-ni-mariang-makiling-filipino-folktale-little-lamb-stories",
+      "title": "ANG ALAMAT NI MARIANG MAKILING 🌿✨ | Filipino Folktale | Little Lamb Stories",
+      "youtubeId": "OnNBKjfFOnc",
+      "premiereAt": "Oct 20, 2026, 7:00 PM GMT+8",
+      "categories": [
+        "stories"
+      ],
+      "values": [
+        "Family"
+      ],
+      "madeForKids": true,
+      "selfDeclaredMadeForKids": false,
+      "audience": "kids"
+    },
+    {
       "id": "naghintay-na-lang-mahulog-ang-bayabas-si-juan-tamad-kuwentong-pambata",
       "title": "NAGHINTAY NA LANG MAHULOG ANG BAYABAS! 😂🌳 | Si Juan Tamad | Kuwentong Pambata",
       "youtubeId": "YHHoBCUxuHQ",
