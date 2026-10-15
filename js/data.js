@@ -461,7 +461,7 @@ window.LLS = {
       "id": "jaydens-morph-time",
       "title": "Jayden's Morph Time! | Little Lamb Stories",
       "youtubeId": "jTjP2MiicMQ",
-      "duration": "1:21",
+      "duration": "1:22",
       "audience": "together",
       "madeForKids": false,
       "selfDeclaredMadeForKids": false,
