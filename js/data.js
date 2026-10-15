@@ -30,6 +30,24 @@ window.LLS = {
   ],
   "episodes": [
     {
+      "id": "naghintay-na-lang-mahulog-ang-bayabas-si-juan-tamad-kuwentong-pambata",
+      "title": "NAGHINTAY NA LANG MAHULOG ANG BAYABAS! 😂🌳 | Si Juan Tamad | Kuwentong Pambata",
+      "youtubeId": "YHHoBCUxuHQ",
+      "duration": "1:56",
+      "audience": "kids",
+      "madeForKids": true,
+      "selfDeclaredMadeForKids": false,
+      "categories": [
+        "stories"
+      ],
+      "values": [
+        "Family"
+      ],
+      "synopsis": "🍈😂 **SI JUAN TAMAD AT ANG BAYABAS — LIAM'S ADVENTURE!** 🌳 Paano kung gusto mong kumain ng bayabas pero ayaw mong kumilos para pitasin ito? 😆 Kilalanin si Liam sa isang masaya at nakaaaliw na bersiyon ng klasikong kuwentong Filipino na **“Si Juan Tamad at ang Bayabas!”** Sa ha",
+      "question": "What did this story make you think about?",
+      "uploadDate": "2026-10-15T11:00:10Z"
+    },
+    {
       "id": "shhh-don-t-look-under-the-bed",
       "title": "Shhh… Don’t Look Under the Bed. 👀😱",
       "youtubeId": "4zckZ-Gm-mg",
@@ -571,21 +589,6 @@ window.LLS = {
       "title": "ANG ALAMAT NI MARIANG MAKILING 🌿✨ | Filipino Folktale | Little Lamb Stories",
       "youtubeId": "OnNBKjfFOnc",
       "premiereAt": "Oct 20, 2026, 7:00 PM GMT+8",
-      "categories": [
-        "stories"
-      ],
-      "values": [
-        "Family"
-      ],
-      "madeForKids": true,
-      "selfDeclaredMadeForKids": false,
-      "audience": "kids"
-    },
-    {
-      "id": "naghintay-na-lang-mahulog-ang-bayabas-si-juan-tamad-kuwentong-pambata",
-      "title": "NAGHINTAY NA LANG MAHULOG ANG BAYABAS! 😂🌳 | Si Juan Tamad | Kuwentong Pambata",
-      "youtubeId": "YHHoBCUxuHQ",
-      "premiereAt": "Oct 15, 2026, 7:00 PM GMT+8",
       "categories": [
         "stories"
       ],
