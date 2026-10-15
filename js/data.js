@@ -30,6 +30,24 @@ window.LLS = {
   ],
   "episodes": [
     {
+      "id": "shhh-don-t-look-under-the-bed",
+      "title": "Shhh… Don’t Look Under the Bed. 👀😱",
+      "youtubeId": "4zckZ-Gm-mg",
+      "duration": "0:59",
+      "audience": "together",
+      "madeForKids": false,
+      "selfDeclaredMadeForKids": false,
+      "categories": [
+        "stories"
+      ],
+      "values": [
+        "Family"
+      ],
+      "synopsis": "Shhh… Don’t Look Under the Bed. 👀😱 They heard a strange sound… They slowly looked underneath. Someone was there. 🫣👻 #LittleLambStories #WhosHiding #UnderTheBed #Halloween2026 #HalloweenFun #HalloweenKids #SpookySeason #SpookyFun #HalloweenReels #KidsHalloween #FunnyHalloween ",
+      "question": "What did this story make you think about?",
+      "uploadDate": "2026-10-15T01:00:35Z"
+    },
+    {
       "id": "the-wild-quest-the-game-that-chose-them-a-magical-adventure-little-lam",
       "title": "THE WILD QUEST: The Game That Chose Them! 🦍🎲✨ | A Magical Adventure | Little Lamb Stories",
       "youtubeId": "zsFHqoxvcj4",
