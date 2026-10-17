@@ -585,6 +585,21 @@ window.LLS = {
   ],
   "upcoming": [
     {
+      "id": "ang-alamat-ng-mangga-isang-kuwento-ng-pagbabahagi-little-lamb-stories",
+      "title": "ANG ALAMAT NG MANGGA 🥭✨ | Isang Kuwento ng Pagbabahagi | Little Lamb Stories",
+      "youtubeId": "M-E3FbKGw9c",
+      "premiereAt": "Oct 22, 2026, 7:00 PM GMT+8",
+      "categories": [
+        "stories"
+      ],
+      "values": [
+        "Family"
+      ],
+      "madeForKids": true,
+      "selfDeclaredMadeForKids": false,
+      "audience": "kids"
+    },
+    {
       "id": "ang-alamat-ni-mariang-makiling-filipino-folktale-little-lamb-stories",
       "title": "ANG ALAMAT NI MARIANG MAKILING 🌿✨ | Filipino Folktale | Little Lamb Stories",
       "youtubeId": "OnNBKjfFOnc",
