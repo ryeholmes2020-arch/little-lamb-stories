@@ -585,6 +585,21 @@ window.LLS = {
   ],
   "upcoming": [
     {
+      "id": "ang-mga-laruang-nakalimutan-isang-nakaaantig-na-kuwentong-pambata-litt",
+      "title": "ANG MGA LARUANG NAKALIMUTAN 🧸💔 | Isang Nakaaantig na Kuwentong Pambata | Little Lamb Stories",
+      "youtubeId": "xon-u0iWc6I",
+      "premiereAt": "Oct 27, 2026, 7:00 PM GMT+8",
+      "categories": [
+        "stories"
+      ],
+      "values": [
+        "Family"
+      ],
+      "madeForKids": true,
+      "selfDeclaredMadeForKids": false,
+      "audience": "kids"
+    },
+    {
       "id": "ang-alamat-ng-mangga-isang-kuwento-ng-pagbabahagi-little-lamb-stories",
       "title": "ANG ALAMAT NG MANGGA 🥭✨ | Isang Kuwento ng Pagbabahagi | Little Lamb Stories",
       "youtubeId": "M-E3FbKGw9c",
