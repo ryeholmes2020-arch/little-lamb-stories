@@ -30,6 +30,25 @@ window.LLS = {
   ],
   "episodes": [
     {
+      "id": "joke-time-pinoy-jokes-dance-finale",
+      "title": "Joke Time! 😂 Pinoy Jokes + Dance Finale!",
+      "youtubeId": "bXg_8Ht_yMk",
+      "duration": "0:52",
+      "audience": "together",
+      "madeForKids": false,
+      "selfDeclaredMadeForKids": false,
+      "categories": [
+        "stories",
+        "comedy"
+      ],
+      "values": [
+        "Family"
+      ],
+      "synopsis": "Corny jokes, tawanan, at sayawan kasama sina Liam, Raya, at Jayden! 😂🎤 Alin ang pinakanakakatawang joke? Comment below! 👇 #LittleLambStories #JokeTime #PinoyJokes #TagalogJokes #FunnyKids #Shorts",
+      "question": "What did this story make you think about?",
+      "uploadDate": "2026-10-19T23:58:09Z"
+    },
+    {
       "id": "naghintay-na-lang-mahulog-ang-bayabas-si-juan-tamad-kuwentong-pambata",
       "title": "NAGHINTAY NA LANG MAHULOG ANG BAYABAS! 😂🌳 | Si Juan Tamad | Kuwentong Pambata",
       "youtubeId": "YHHoBCUxuHQ",
