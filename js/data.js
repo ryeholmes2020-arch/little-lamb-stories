@@ -30,6 +30,24 @@ window.LLS = {
   ],
   "episodes": [
     {
+      "id": "ang-alamat-ni-mariang-makiling-filipino-folktale-little-lamb-stories",
+      "title": "ANG ALAMAT NI MARIANG MAKILING 🌿✨ | Filipino Folktale | Little Lamb Stories",
+      "youtubeId": "OnNBKjfFOnc",
+      "duration": "1:32",
+      "audience": "kids",
+      "madeForKids": true,
+      "selfDeclaredMadeForKids": false,
+      "categories": [
+        "stories"
+      ],
+      "values": [
+        "Family"
+      ],
+      "synopsis": "🌿✨ **ANG ALAMAT NI MARIANG MAKILING | A Magical Filipino Folktale** Journey into the enchanting forests of Mount Makiling and discover the legendary Mariang Makiling, the beautiful diwata who protects nature and teaches the true meaning of kindness. Join Liam, Raya, Jayden, and ",
+      "question": "What did this story make you think about?",
+      "uploadDate": "2026-10-20T11:00:08Z"
+    },
+    {
       "id": "joke-time-pinoy-jokes-dance-finale",
       "title": "Joke Time! 😂 Pinoy Jokes + Dance Finale!",
       "youtubeId": "bXg_8Ht_yMk",
@@ -623,21 +641,6 @@ window.LLS = {
       "title": "ANG ALAMAT NG MANGGA 🥭✨ | Isang Kuwento ng Pagbabahagi | Little Lamb Stories",
       "youtubeId": "M-E3FbKGw9c",
       "premiereAt": "Oct 22, 2026, 7:00 PM GMT+8",
-      "categories": [
-        "stories"
-      ],
-      "values": [
-        "Family"
-      ],
-      "madeForKids": true,
-      "selfDeclaredMadeForKids": false,
-      "audience": "kids"
-    },
-    {
-      "id": "ang-alamat-ni-mariang-makiling-filipino-folktale-little-lamb-stories",
-      "title": "ANG ALAMAT NI MARIANG MAKILING 🌿✨ | Filipino Folktale | Little Lamb Stories",
-      "youtubeId": "OnNBKjfFOnc",
-      "premiereAt": "Oct 20, 2026, 7:00 PM GMT+8",
       "categories": [
         "stories"
       ],
