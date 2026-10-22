@@ -30,6 +30,24 @@ window.LLS = {
   ],
   "episodes": [
     {
+      "id": "ang-alamat-ng-mangga-isang-kuwento-ng-pagbabahagi-little-lamb-stories",
+      "title": "ANG ALAMAT NG MANGGA 🥭✨ | Isang Kuwento ng Pagbabahagi | Little Lamb Stories",
+      "youtubeId": "M-E3FbKGw9c",
+      "duration": "2:37",
+      "audience": "kids",
+      "madeForKids": true,
+      "selfDeclaredMadeForKids": false,
+      "categories": [
+        "stories"
+      ],
+      "values": [
+        "Family"
+      ],
+      "synopsis": "🥭✨ *ANG ALAMAT NG MANGGA | Isang Kuwento ng Pagbabahagi* Paano kung ang pinakamimithing mangga sa buong nayon ay maging pagsubok sa kabutihan ng isang bata? 🌳💛 Samahan sina Liam, Raya, at Jayden sa isang makulay at mahiwagang pakikipagsapalaran sa isang nayon sa Pilipinas, kun",
+      "question": "What did this story make you think about?",
+      "uploadDate": "2026-10-22T11:00:08Z"
+    },
+    {
       "id": "ang-alamat-ni-mariang-makiling-filipino-folktale-little-lamb-stories",
       "title": "ANG ALAMAT NI MARIANG MAKILING 🌿✨ | Filipino Folktale | Little Lamb Stories",
       "youtubeId": "OnNBKjfFOnc",
@@ -626,21 +644,6 @@ window.LLS = {
       "title": "ANG MGA LARUANG NAKALIMUTAN 🧸💔 | Isang Nakaaantig na Kuwentong Pambata | Little Lamb Stories",
       "youtubeId": "xon-u0iWc6I",
       "premiereAt": "Oct 27, 2026, 7:00 PM GMT+8",
-      "categories": [
-        "stories"
-      ],
-      "values": [
-        "Family"
-      ],
-      "madeForKids": true,
-      "selfDeclaredMadeForKids": false,
-      "audience": "kids"
-    },
-    {
-      "id": "ang-alamat-ng-mangga-isang-kuwento-ng-pagbabahagi-little-lamb-stories",
-      "title": "ANG ALAMAT NG MANGGA 🥭✨ | Isang Kuwento ng Pagbabahagi | Little Lamb Stories",
-      "youtubeId": "M-E3FbKGw9c",
-      "premiereAt": "Oct 22, 2026, 7:00 PM GMT+8",
       "categories": [
         "stories"
       ],
