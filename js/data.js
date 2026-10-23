@@ -640,6 +640,21 @@ window.LLS = {
   ],
   "upcoming": [
     {
+      "id": "ang-alamat-ng-niyog-isang-kuwento-ng-pagmamahal-at-sakripisyo-little-l",
+      "title": "ANG ALAMAT NG NIYOG 🥥✨ | Isang Kuwento ng Pagmamahal at Sakripisyo | Little Lamb Stories",
+      "youtubeId": "iH_XLvW1zIc",
+      "premiereAt": "Nov 3, 2026, 7:00 PM GMT+8",
+      "categories": [
+        "stories"
+      ],
+      "values": [
+        "Family"
+      ],
+      "madeForKids": true,
+      "selfDeclaredMadeForKids": false,
+      "audience": "kids"
+    },
+    {
       "id": "ang-mga-laruang-nakalimutan-isang-nakaaantig-na-kuwentong-pambata-litt",
       "title": "ANG MGA LARUANG NAKALIMUTAN 🧸💔 | Isang Nakaaantig na Kuwentong Pambata | Little Lamb Stories",
       "youtubeId": "xon-u0iWc6I",
