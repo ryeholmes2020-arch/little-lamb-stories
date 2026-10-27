@@ -30,6 +30,24 @@ window.LLS = {
   ],
   "episodes": [
     {
+      "id": "ang-mga-laruang-nakalimutan-isang-nakaaantig-na-kuwentong-pambata-litt",
+      "title": "ANG MGA LARUANG NAKALIMUTAN 🧸💔 | Isang Nakaaantig na Kuwentong Pambata | Little Lamb Stories",
+      "youtubeId": "xon-u0iWc6I",
+      "duration": "4:34",
+      "audience": "kids",
+      "madeForKids": true,
+      "selfDeclaredMadeForKids": false,
+      "categories": [
+        "stories"
+      ],
+      "values": [
+        "Family"
+      ],
+      "synopsis": "🧸💔 *Paano kung ang mga laruang minsan mong minahal ay malungkot na dahil nakalimutan mo na silang paglaruan?* Kilalanin si Mika, isang batang mahilig lumikha ng mga kuwento kasama ang kaniyang mga paboritong laruan: si Bunso, ang matapang na kuneho; si Rex, ang mabait na dinosa",
+      "question": "What did this story make you think about?",
+      "uploadDate": "2026-10-27T11:00:07Z"
+    },
+    {
       "id": "ang-alamat-ng-mangga-isang-kuwento-ng-pagbabahagi-little-lamb-stories",
       "title": "ANG ALAMAT NG MANGGA 🥭✨ | Isang Kuwento ng Pagbabahagi | Little Lamb Stories",
       "youtubeId": "M-E3FbKGw9c",
@@ -644,21 +662,6 @@ window.LLS = {
       "title": "ANG ALAMAT NG NIYOG 🥥✨ | Isang Kuwento ng Pagmamahal at Sakripisyo | Little Lamb Stories",
       "youtubeId": "iH_XLvW1zIc",
       "premiereAt": "Nov 3, 2026, 7:00 PM GMT+8",
-      "categories": [
-        "stories"
-      ],
-      "values": [
-        "Family"
-      ],
-      "madeForKids": true,
-      "selfDeclaredMadeForKids": false,
-      "audience": "kids"
-    },
-    {
-      "id": "ang-mga-laruang-nakalimutan-isang-nakaaantig-na-kuwentong-pambata-litt",
-      "title": "ANG MGA LARUANG NAKALIMUTAN 🧸💔 | Isang Nakaaantig na Kuwentong Pambata | Little Lamb Stories",
-      "youtubeId": "xon-u0iWc6I",
-      "premiereAt": "Oct 27, 2026, 7:00 PM GMT+8",
       "categories": [
         "stories"
       ],
