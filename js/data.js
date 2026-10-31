@@ -30,6 +30,24 @@ window.LLS = {
   ],
   "episodes": [
     {
+      "id": "zombie-halloween-story-for-kids-jayden-s-scary-night-littlelambstories",
+      "title": "Zombie Halloween Story for Kids 👻 | Jayden’s Scary Night #LittleLambStories #Shorts #ZombieStory",
+      "youtubeId": "4Uow_aO_GnY",
+      "duration": "1:43",
+      "audience": "together",
+      "madeForKids": false,
+      "selfDeclaredMadeForKids": false,
+      "categories": [
+        "stories"
+      ],
+      "values": [
+        "Family"
+      ],
+      "synopsis": "🎃🧟 A quiet night turns into a terrifying Halloween adventure! When Jayden’s late-night cellphone use takes a spooky turn, he faces a frightening zombie encounter! 😱📱 Watch until the end to discover what really happened—and learn a little lesson about healthy screen-time habit",
+      "question": "What did this story make you think about?",
+      "uploadDate": "2026-10-31T14:29:19Z"
+    },
+    {
       "id": "ang-mga-laruang-nakalimutan-isang-nakaaantig-na-kuwentong-pambata-litt",
       "title": "ANG MGA LARUANG NAKALIMUTAN 🧸💔 | Isang Nakaaantig na Kuwentong Pambata | Little Lamb Stories",
       "youtubeId": "xon-u0iWc6I",
