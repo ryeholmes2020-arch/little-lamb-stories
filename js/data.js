@@ -30,6 +30,24 @@ window.LLS = {
   ],
   "episodes": [
     {
+      "id": "ang-alamat-ng-niyog-isang-kuwento-ng-pagmamahal-at-sakripisyo-little-l",
+      "title": "ANG ALAMAT NG NIYOG 🥥✨ | Isang Kuwento ng Pagmamahal at Sakripisyo | Little Lamb Stories",
+      "youtubeId": "iH_XLvW1zIc",
+      "duration": "2:31",
+      "audience": "kids",
+      "madeForKids": true,
+      "selfDeclaredMadeForKids": false,
+      "categories": [
+        "stories"
+      ],
+      "values": [
+        "Family"
+      ],
+      "synopsis": "🥥✨ **ANG ALAMAT NG NIYOG | Little Lamb Stories** What if one extraordinary gift could change the lives of an entire village? 🌴💛 Join Tala on a heartwarming Filipino folklore adventure filled with love, courage, sacrifice, and the power of sharing. When a mysterious coconut bri",
+      "question": "What did this story make you think about?",
+      "uploadDate": "2026-11-03T11:00:07Z"
+    },
+    {
       "id": "zombie-halloween-story-for-kids-jayden-s-scary-night-littlelambstories",
       "title": "Zombie Halloween Story for Kids 👻 | Jayden’s Scary Night #LittleLambStories #Shorts #ZombieStory",
       "youtubeId": "4Uow_aO_GnY",
@@ -674,23 +692,7 @@ window.LLS = {
       "uploadDate": "2026-08-28T11:22:49Z"
     }
   ],
-  "upcoming": [
-    {
-      "id": "ang-alamat-ng-niyog-isang-kuwento-ng-pagmamahal-at-sakripisyo-little-l",
-      "title": "ANG ALAMAT NG NIYOG 🥥✨ | Isang Kuwento ng Pagmamahal at Sakripisyo | Little Lamb Stories",
-      "youtubeId": "iH_XLvW1zIc",
-      "premiereAt": "Nov 3, 2026, 7:00 PM GMT+8",
-      "categories": [
-        "stories"
-      ],
-      "values": [
-        "Family"
-      ],
-      "madeForKids": true,
-      "selfDeclaredMadeForKids": false,
-      "audience": "kids"
-    }
-  ]
+  "upcoming": []
 };
 
 LLS.thumb = function (id) {
