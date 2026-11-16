@@ -232,7 +232,7 @@ window.LLS = {
       "id": "pina-ang-batang-naging-pinya-isang-kuwento-tungkol-sa-pagsunod-at-pagm",
       "title": "PINA: ANG BATANG NAGING PINYA 🍍 | Isang Kuwento Tungkol sa Pagsunod at Pagmamahal",
       "youtubeId": "ICYip6AKkYc",
-      "duration": "3:28",
+      "duration": "3:29",
       "audience": "together",
       "madeForKids": false,
       "selfDeclaredMadeForKids": false,
